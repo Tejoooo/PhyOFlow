@@ -1,0 +1,155 @@
+
+.hver{
+
+    border: none;
+  }
+  
+  .hver:hover{
+    border-radius: 25px;
+    background-color: #f2f2f28f;
+    /* color: #ff846a; */
+    /* border: 2px solid #ff846a; */
+  }
+  
+
+#cart {
+    display: none; /* hide the button by default */
+    position: fixed; /* set the button's position to fixed */
+    bottom: -20px;
+    right: 20px;
+    z-index: 100; /* set the button's z-index to be above other elements */
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 50%;
+  }
+  
+  #cart:hover {
+
+    background-color:#e9e8e8;
+  }
+  .form{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 42.5px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    /* border: 2px solid #ff846a; */
+    border: none;
+    padding:5px;
+    
+  }
+  
+  
+  .input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    border-top: #ff5c66;
+    /* border-bottom: #ff5c66; */
+    list-style: lower-alpha;
+    caret-color: orange;
+    /* caret: 3px solid orange; */
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+  }
+  
+  
+  
+  .input1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 50.5px;
+    line-height: 30px;
+    border-top: #ff5c66;
+    /* border-bottom: #ff5c66; */
+    list-style: lower-alpha;
+    caret-color: orange;
+    /* caret: 3px solid orange; */
+    outline: 0;
+    border: 0;
+    /* display: none; */
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 6px;
+  }
+  input::caret {
+    width: 3px;
+  }
+  
+  .fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 20px;
+    color: #ff846a;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+  }
+  
+  form:hover,
+  form:valid{
+    width: 200px;
+    height: 100%;
+    cursor: pointer;
+    border: 2px solid #e9e8e8;
+  }
+  
+  form:hover input,
+  form:valid input{
+    display: block;
+    background-color: #e9e8e85d;
+  }
+  
+  #email{
+    background-color: #fff;
+  }
+  
+  form:hover .fa,
+  form:valid .fa{
+    background: #ff846a;
+    color: white;
+    /* border: 2px solid #ff846a; */
+  }
+  
+  
+  
+  .cart-num{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

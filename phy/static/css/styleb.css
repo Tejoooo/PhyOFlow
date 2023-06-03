@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+.wrapper{
+  display: flex;
+  position: relative;
+  margin-top: 0;
+}
+
+.wrapper .sidebar{
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+ 
+  margin: 150px 20px 0px 30px;
+  /* padding-left: 80px; */
+  width: min-content;
+  /* height: 100%; */
+  height: fit-content;
+  /* overflow-y: scroll; */
+  /* background: #4b4276; */
+  padding: 30px;
+  position: absolute;
+  /* border-color: ; */
+  /* border: 2px solid #e0e4e8; */
+  border-radius: 10px;
+  /* box-shadow: #e0e4e8; */
+
+}
+
+.wrapper .sidebar h2{
+  color: #ff5c66;
+  /* text-transform: uppercase; */
+  font-family: 'Josefin Sans';
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.filters_menu{
+    list-style: none;
+    padding: 0;
+    /* overflow-y: scroll; */
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+  /* border-radius: 3px; */
+}    
+
+.wrapper .sidebar ul li a{
+  color: #bdb8d7;
+  display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color: #ff846a;
+  border-radius: 5px;
+
+}
+
+/* .wrapper .sidebar ul li a:active{
+    background-color: #ff846a;
+    border-radius: 5px;
+    
+  } */
+    
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+}
+ 
+.wrapper .sidebar .social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.wrapper .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  background: #594f8d;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #bdb8d7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 250px;
+  /* margin-right: 20px; */
+}
+
+.wrapper .main_content .header{
+
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+
+@media (max-height: 500px){
+  .social_media{
+    display: none !important;
+  }
+}
+
+
+/* footer {
+    background-color: #c8c6c6a6;
+    padding: 50px 0;
+    color: #333;
+    height: fit-content;
+  }
+  
+  footer h3 {
+    color: #555;
+    font-family: mont-blanc;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    line-height: 2;
+  }
+  
+  footer a {
+    color: #555;
+  }
+  
+  @media (max-width: 767px) {
+    footer {
+      padding: 30px 0;
+    }
+  
+    .footer-container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    .col-md-4 {
+      text-align: center;
+      margin-bottom: 30px;
+      margin: 0 25px;
+      border: 2px solid;
+    }
+  }
+   
+  
+  
+  footer ul.social-media li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  footer ul.social-media li:last-child {
+    margin-right: 0;
+  }
+  
+  footer ul.social-media li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    transition: all 0.3s ease;
+  }
+  
+  footer ul.social-media li a:hover {
+    background-color: #ff846a;
+  } */
+
+  .btn1{
+    border: none;
+    background-color: #ff5c66;
+     border-top-right-radius: 6px;
+    border-bottom-right-radius: 16px;
+  }
+
+  .btn1:hover{
+    background-color: #ff846a;
+  }
+
+  
+  
+  .hver:hover{
+    border-radius: 25px;
+    background-color: #f2f2f28f;
+    /* color: #ff846a; */
+    /* border: 2px solid #ff846a; */
+  }
+  
+  #login-btn{
+    border:none;
+  }
+
+  form:hover input,
+form:valid input{
+  display: block;
+  background-color: #e9e8e85d;
+}
+
+#email{
+  background-color: #fff;
+}

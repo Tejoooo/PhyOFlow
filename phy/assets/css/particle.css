@@ -1,0 +1,3635 @@
+html, body {
+    height: 100%;
+    height:fit-content;
+    background-color: #FFF;
+  }
+  
+  .particle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 15vmin;
+    height: 15vmin;
+    border-radius: 50%;
+    box-shadow: 0 3vmin 3vmin rgba(0, 0, 0, 0.3), 0 -6vmin 3vmin rgba(0, 0, 0, 0.1) inset, 0 9vmin 3vmin rgba(255, 255, 255, 0.1) inset;
+    opacity: 0;
+    animation: doit 2500ms infinite cubic-bezier(0.125, 0, 0.41, 0);
+    animation-direction: reverse;
+  }
+  
+  #particle1 {
+    background: #8a0bff;
+    transform: translateX(-30.74265vmin) translateY(22.33584vmin) scale(0.07022);
+    animation-delay: -747ms;
+  }
+  
+  #particle2 {
+    background: #5a01ff;
+    transform: translateX(-19.79874vmin) translateY(-42.07446vmin) scale(0.00604);
+    animation-delay: -475ms;
+  }
+  
+  #particle3 {
+    background: #ff32d5;
+    transform: translateX(-12.59193vmin) translateY(-19.84171vmin) scale(0.32699);
+    animation-delay: -837ms;
+  }
+  
+  #particle4 {
+    background: #5700ff;
+    transform: translateX(-30.27764vmin) translateY(-36.59938vmin) scale(0.00308);
+    animation-delay: -2306ms;
+  }
+  
+  #particle5 {
+    background: #5f02ff;
+    transform: translateX(34.6731vmin) translateY(28.68408vmin) scale(0.01231);
+    animation-delay: -465ms;
+  }
+  
+  #particle6 {
+    background: #9c0fff;
+    transform: translateX(-27.73848vmin) translateY(22.94726vmin) scale(0.09517);
+    animation-delay: -2263ms;
+  }
+  
+  #particle7 {
+    background: #930dff;
+    transform: translateX(-36.92699vmin) translateY(-2.32325vmin) scale(0.08225);
+    animation-delay: -2425ms;
+  }
+  
+  #particle8 {
+    background: #5600ff;
+    transform: translateX(3.04534vmin) translateY(48.4043vmin) scale(0.00111);
+    animation-delay: -1995ms;
+  }
+  
+  #particle9 {
+    background: #6102ff;
+    transform: translateX(-43.10195vmin) translateY(-11.0667vmin) scale(0.01489);
+    animation-delay: -1164ms;
+  }
+  
+  #particle10 {
+    background: #5a01ff;
+    transform: translateX(35.82887vmin) translateY(-29.64022vmin) scale(0.00604);
+    animation-delay: -236ms;
+  }
+  
+  #particle11 {
+    background: #8a0bff;
+    transform: translateX(-22.33584vmin) translateY(-30.74265vmin) scale(0.07022);
+    animation-delay: -2453ms;
+  }
+  
+  #particle12 {
+    background: #ff5478;
+    transform: translateX(11.5577vmin) translateY(-9.56136vmin) scale(0.54601);
+    animation-delay: -39ms;
+  }
+  
+  #particle13 {
+    background: #ff846a;
+    transform: translateX(5.35827vmin) translateY(-8.44328vmin) scale(0.69098);
+    animation-delay: -1945ms;
+  }
+  
+  #particle14 {
+    background: #5d02ff;
+    transform: translateX(39.87195vmin) translateY(21.91979vmin) scale(0.00998);
+    animation-delay: -1605ms;
+  }
+  
+  #particle15 {
+    background: #6102ff;
+    transform: translateX(26.15644vmin) translateY(-36.00126vmin) scale(0.01489);
+    animation-delay: -62ms;
+  }
+  
+  #particle16 {
+    background: #5801ff;
+    transform: translateX(2.95115vmin) translateY(-46.90726vmin) scale(0.00444);
+    animation-delay: -159ms;
+  }
+  
+  #particle17 {
+    background: #5b01ff;
+    transform: translateX(38.83908vmin) translateY(24.64803vmin) scale(0.00789);
+    animation-delay: -1536ms;
+  }
+  
+  #particle18 {
+    background: #db1dff;
+    transform: translateX(-19.12272vmin) translateY(-23.1154vmin) scale(0.19098);
+    animation-delay: -1450ms;
+  }
+  
+  #particle19 {
+    background: #ba15ff;
+    transform: translateX(-31.38487vmin) translateY(10.19756vmin) scale(0.13926);
+    animation-delay: -96ms;
+  }
+  
+  #particle20 {
+    background: #6303ff;
+    transform: translateX(-38.55749vmin) translateY(21.19716vmin) scale(0.01771);
+    animation-delay: -950ms;
+  }
+  
+  #particle21 {
+    background: #bf17ff;
+    transform: translateX(32.24373vmin) translateY(4.07333vmin) scale(0.14736);
+    animation-delay: -2276ms;
+  }
+  
+  #particle22 {
+    background: #ff7c67;
+    transform: translateX(-1.316vmin) translateY(10.4172vmin) scale(0.67608);
+    animation-delay: -1334ms;
+  }
+  
+  #particle23 {
+    background: #5b01ff;
+    transform: translateX(-38.83908vmin) translateY(-24.64803vmin) scale(0.00789);
+    animation-delay: -1251ms;
+  }
+  
+  #particle24 {
+    background: #5700ff;
+    transform: translateX(-8.9943vmin) translateY(47.14979vmin) scale(0.00197);
+    animation-delay: -1082ms;
+  }
+  
+  #particle25 {
+    background: #8e0cff;
+    transform: translateX(-37.426vmin) translateY(-2.35464vmin) scale(0.07612);
+    animation-delay: -1017ms;
+  }
+  
+  #particle26 {
+    background: #7005ff;
+    transform: translateX(19.99278vmin) translateY(-36.36673vmin) scale(0.03544);
+    animation-delay: -808ms;
+  }
+  
+  #particle27 {
+    background: #af13ff;
+    transform: translateX(6.37096vmin) translateY(-33.39777vmin) scale(0.12369);
+    animation-delay: -2449ms;
+  }
+  
+  #particle28 {
+    background: #ba15ff;
+    transform: translateX(30.68262vmin) translateY(12.14811vmin) scale(0.13926);
+    animation-delay: -1615ms;
+  }
+  
+  #particle29 {
+    background: #ff8c6c;
+    transform: translateX(-8.83288vmin) translateY(3.49718vmin) scale(0.70596);
+    animation-delay: -633ms;
+  }
+  
+  #particle30 {
+    background: #9c0fff;
+    transform: translateX(-15.32805vmin) translateY(-32.57377vmin) scale(0.09517);
+    animation-delay: -1264ms;
+  }
+  
+  #particle31 {
+    background: #5d02ff;
+    transform: translateX(-5.70266vmin) translateY(-45.14122vmin) scale(0.00998);
+    animation-delay: -7ms;
+  }
+  
+  #particle32 {
+    background: #5b01ff;
+    transform: translateX(45.90923vmin) translateY(2.88836vmin) scale(0.00789);
+    animation-delay: -363ms;
+  }
+  
+  #particle33 {
+    background: #ffbe7c;
+    transform: translateX(3.21496vmin) translateY(-5.06597vmin) scale(0.81262);
+    animation-delay: -1435ms;
+  }
+  
+  #particle34 {
+    background: #a010ff;
+    transform: translateX(-35.42995vmin) translateY(-2.22906vmin) scale(0.10197);
+    animation-delay: -340ms;
+  }
+  
+  #particle35 {
+    background: #930dff;
+    transform: translateX(-32.42335vmin) translateY(-17.82489vmin) scale(0.08225);
+    animation-delay: -246ms;
+  }
+  
+  #particle36 {
+    background: #ff5c66;
+    transform: translateX(-12.97435vmin) translateY(0.81628vmin) scale(0.60285);
+    animation-delay: -808ms;
+  }
+  
+  #particle37 {
+    background: #e720ff;
+    transform: translateX(15.53898vmin) translateY(24.48551vmin) scale(0.20984);
+    animation-delay: -462ms;
+  }
+  
+  #particle38 {
+    background: #c518ff;
+    transform: translateX(29.75285vmin) translateY(-11.77999vmin) scale(0.15567);
+    animation-delay: -228ms;
+  }
+  
+  #particle39 {
+    background: #ff3fac;
+    transform: translateX(14.57937vmin) translateY(13.69094vmin) scale(0.41221);
+    animation-delay: -1584ms;
+  }
+  
+  #particle40 {
+    background: #8209ff;
+    transform: translateX(-4.888vmin) translateY(38.69247vmin) scale(0.05912);
+    animation-delay: -925ms;
+  }
+  
+  #particle41 {
+    background: #ffc47f;
+    transform: translateX(5.40258vmin) translateY(-1.0306vmin) scale(0.82807);
+    animation-delay: -2060ms;
+  }
+  
+  #particle42 {
+    background: #ff517c;
+    transform: translateX(-5.70593vmin) translateY(14.41154vmin) scale(0.53207);
+    animation-delay: -2266ms;
+  }
+  
+  #particle43 {
+    background: #5700ff;
+    transform: translateX(-40.52774vmin) translateY(25.71969vmin) scale(0.00197);
+    animation-delay: -2419ms;
+  }
+  
+  #particle44 {
+    background: #930dff;
+    transform: translateX(19.82559vmin) translateY(31.24013vmin) scale(0.08225);
+    animation-delay: -1374ms;
+  }
+  
+  #particle45 {
+    background: #bf17ff;
+    transform: translateX(-30.21774vmin) translateY(11.96405vmin) scale(0.14736);
+    animation-delay: -336ms;
+  }
+  
+  #particle46 {
+    background: #5b01ff;
+    transform: translateX(11.43973vmin) translateY(44.55483vmin) scale(0.00789);
+    animation-delay: -2306ms;
+  }
+  
+  #particle47 {
+    background: #5600ff;
+    transform: translateX(-48.11756vmin) translateY(6.07866vmin) scale(0.00111);
+    animation-delay: -1989ms;
+  }
+  
+  #particle48 {
+    background: #5f02ff;
+    transform: translateX(44.64516vmin) translateY(5.64vmin) scale(0.01231);
+    animation-delay: -558ms;
+  }
+  
+  #particle49 {
+    background: #ff2de7;
+    transform: translateX(15.9356vmin) translateY(19.26283vmin) scale(0.29289);
+    animation-delay: -2027ms;
+  }
+  
+  #particle50 {
+    background: #ff2bed;
+    transform: translateX(1.60116vmin) translateY(-25.44968vmin) scale(0.28187);
+    animation-delay: -681ms;
+  }
+  
+  #particle51 {
+    background: #ff6461;
+    transform: translateX(11.97632vmin) translateY(0.75349vmin) scale(0.63188);
+    animation-delay: -1626ms;
+  }
+  
+  #particle52 {
+    background: #c518ff;
+    transform: translateX(24.65642vmin) translateY(20.39757vmin) scale(0.15567);
+    animation-delay: -1817ms;
+  }
+  
+  #particle53 {
+    background: #aa12ff;
+    transform: translateX(-34.22796vmin) translateY(4.324vmin) scale(0.11623);
+    animation-delay: -113ms;
+  }
+  
+  #particle54 {
+    background: #ff26ff;
+    transform: translateX(22.79685vmin) translateY(-14.46732vmin) scale(0.24989);
+    animation-delay: -286ms;
+  }
+  
+  #particle55 {
+    background: #6303ff;
+    transform: translateX(32.07462vmin) translateY(-30.12007vmin) scale(0.01771);
+    animation-delay: -206ms;
+  }
+  
+  #particle56 {
+    background: #8209ff;
+    transform: translateX(12.05166vmin) translateY(37.0912vmin) scale(0.05912);
+    animation-delay: -2151ms;
+  }
+  
+  #particle57 {
+    background: #aa12ff;
+    transform: translateX(-27.91109vmin) translateY(-20.27859vmin) scale(0.11623);
+    animation-delay: -2358ms;
+  }
+  
+  #particle58 {
+    background: #7707ff;
+    transform: translateX(-34.19528vmin) translateY(21.70099vmin) scale(0.04421);
+    animation-delay: -1517ms;
+  }
+  
+  #particle59 {
+    background: #5500ff;
+    transform: translateX(-35.71946vmin) translateY(33.54281vmin) scale(0.00049);
+    animation-delay: -2025ms;
+  }
+  
+  #particle60 {
+    background: #7306ff;
+    transform: translateX(-40.9191vmin) translateY(-2.57441vmin) scale(0.03971);
+    animation-delay: -388ms;
+  }
+  
+  #particle61 {
+    background: #ff43a1;
+    transform: translateX(18.07007vmin) translateY(-5.87132vmin) scale(0.43792);
+    animation-delay: -1292ms;
+  }
+  
+  #particle62 {
+    background: #5b01ff;
+    transform: translateX(22.16067vmin) translateY(40.31011vmin) scale(0.00789);
+    animation-delay: -1211ms;
+  }
+  
+  #particle63 {
+    background: #ff5e62;
+    transform: translateX(-12.47533vmin) translateY(0.78488vmin) scale(0.61732);
+    animation-delay: -1225ms;
+  }
+  
+  #particle64 {
+    background: #7005ff;
+    transform: translateX(-2.60581vmin) translateY(41.41811vmin) scale(0.03544);
+    animation-delay: -598ms;
+  }
+  
+  #particle65 {
+    background: #6d05ff;
+    transform: translateX(-40.68049vmin) translateY(10.44498vmin) scale(0.03142);
+    animation-delay: -144ms;
+  }
+  
+  #particle66 {
+    background: #ffb77a;
+    transform: translateX(4.14326vmin) translateY(-5.00834vmin) scale(0.79721);
+    animation-delay: -148ms;
+  }
+  
+  #particle67 {
+    background: #5801ff;
+    transform: translateX(17.30185vmin) translateY(-43.69949vmin) scale(0.00444);
+    animation-delay: -949ms;
+  }
+  
+  #particle68 {
+    background: #5700ff;
+    transform: translateX(36.98464vmin) translateY(30.59635vmin) scale(0.00197);
+    animation-delay: -766ms;
+  }
+  
+  #particle69 {
+    background: #c518ff;
+    transform: translateX(31.93686vmin) translateY(2.0093vmin) scale(0.15567);
+    animation-delay: -1265ms;
+  }
+  
+  #particle70 {
+    background: #ff32d5;
+    transform: translateX(11.32121vmin) translateY(20.59321vmin) scale(0.32699);
+    animation-delay: -285ms;
+  }
+  
+  #particle71 {
+    background: #970eff;
+    transform: translateX(35.35329vmin) translateY(-9.07718vmin) scale(0.0886);
+    animation-delay: -2368ms;
+  }
+  
+  #particle72 {
+    background: #aa12ff;
+    transform: translateX(-16.6205vmin) translateY(30.23258vmin) scale(0.11623);
+    animation-delay: -1322ms;
+  }
+  
+  #particle73 {
+    background: #e11fff;
+    transform: translateX(17.33966vmin) translateY(23.866vmin) scale(0.20032);
+    animation-delay: -2459ms;
+  }
+  
+  #particle74 {
+    background: #9c0fff;
+    transform: translateX(34.86899vmin) translateY(-8.95284vmin) scale(0.09517);
+    animation-delay: -6ms;
+  }
+  
+  #particle75 {
+    background: #8209ff;
+    transform: translateX(-30.05002vmin) translateY(-24.85954vmin) scale(0.05912);
+    animation-delay: -1904ms;
+  }
+  
+  #particle76 {
+    background: #5d02ff;
+    transform: translateX(8.52585vmin) translateY(44.69407vmin) scale(0.00998);
+    animation-delay: -2164ms;
+  }
+  
+  #particle77 {
+    background: #970eff;
+    transform: translateX(9.07718vmin) translateY(-35.35329vmin) scale(0.0886);
+    animation-delay: -406ms;
+  }
+  
+  #particle78 {
+    background: #ba15ff;
+    transform: translateX(2.07209vmin) translateY(-32.93488vmin) scale(0.13926);
+    animation-delay: -2498ms;
+  }
+  
+  #particle79 {
+    background: #860aff;
+    transform: translateX(26.35506vmin) translateY(28.06529vmin) scale(0.06456);
+    animation-delay: -1242ms;
+  }
+  
+  #particle80 {
+    background: #5500ff;
+    transform: translateX(49.11436vmin) translateY(-9.36907vmin) scale(0);
+    animation-delay: -1791ms;
+  }
+  
+  #particle81 {
+    background: #ff3bb7;
+    transform: translateX(20.34025vmin) translateY(-5.22249vmin) scale(0.38709);
+    animation-delay: -129ms;
+  }
+  
+  #particle82 {
+    background: #5500ff;
+    transform: translateX(-31.8712vmin) translateY(38.52566vmin) scale(0);
+    animation-delay: -2068ms;
+  }
+  
+  #particle83 {
+    background: #ca19ff;
+    transform: translateX(30.94205vmin) translateY(-5.90251vmin) scale(0.16419);
+    animation-delay: -283ms;
+  }
+  
+  #particle84 {
+    background: #ff4991;
+    transform: translateX(11.15492vmin) translateY(-13.48398vmin) scale(0.4775);
+    animation-delay: -1204ms;
+  }
+  
+  #particle85 {
+    background: #6d05ff;
+    transform: translateX(-39.94437vmin) translateY(-12.97871vmin) scale(0.03142);
+    animation-delay: -335ms;
+  }
+  
+  #particle86 {
+    background: #5a01ff;
+    transform: translateX(14.36929vmin) translateY(-44.22413vmin) scale(0.00604);
+    animation-delay: -1997ms;
+  }
+  
+  #particle87 {
+    background: #ff5c66;
+    transform: translateX(6.2628vmin) translateY(11.39199vmin) scale(0.60285);
+    animation-delay: -1726ms;
+  }
+  
+  #particle88 {
+    background: #ffd183;
+    transform: translateX(3.28036vmin) translateY(3.08046vmin) scale(0.8591);
+    animation-delay: -1917ms;
+  }
+  
+  #particle89 {
+    background: #5d02ff;
+    transform: translateX(-45.5vmin) translateY(0vmin) scale(0.00998);
+    animation-delay: -1599ms;
+  }
+  
+  #particle90 {
+    background: #ca19ff;
+    transform: translateX(25.48404vmin) translateY(18.51524vmin) scale(0.16419);
+    animation-delay: -756ms;
+  }
+  
+  #particle91 {
+    background: #8e0cff;
+    transform: translateX(-9.32587vmin) translateY(36.32187vmin) scale(0.07612);
+    animation-delay: -1271ms;
+  }
+  
+  #particle92 {
+    background: #af13ff;
+    transform: translateX(-12.51623vmin) translateY(31.6124vmin) scale(0.12369);
+    animation-delay: -1898ms;
+  }
+  
+  #particle93 {
+    background: #6804ff;
+    transform: translateX(-34.78773vmin) translateY(-25.27477vmin) scale(0.02408);
+    animation-delay: -799ms;
+  }
+  
+  #particle94 {
+    background: #8209ff;
+    transform: translateX(7.30787vmin) translateY(-38.3092vmin) scale(0.05912);
+    animation-delay: -732ms;
+  }
+  
+  #particle95 {
+    background: #7005ff;
+    transform: translateX(33.57421vmin) translateY(-24.39309vmin) scale(0.03544);
+    animation-delay: -1260ms;
+  }
+  
+  #particle96 {
+    background: #ff2de7;
+    transform: translateX(19.26283vmin) translateY(15.9356vmin) scale(0.29289);
+    animation-delay: -1246ms;
+  }
+  
+  #particle97 {
+    background: #ff28f9;
+    transform: translateX(22.37469vmin) translateY(-14.19941vmin) scale(0.26037);
+    animation-delay: -17ms;
+  }
+  
+  #particle98 {
+    background: #6d05ff;
+    transform: translateX(40.68049vmin) translateY(10.44498vmin) scale(0.03142);
+    animation-delay: -1410ms;
+  }
+  
+  #particle99 {
+    background: #ff2de7;
+    transform: translateX(-24.55718vmin) translateY(-4.68453vmin) scale(0.29289);
+    animation-delay: -1627ms;
+  }
+  
+  #particle100 {
+    background: #ed22ff;
+    transform: translateX(-19.50959vmin) translateY(-20.77561vmin) scale(0.21957);
+    animation-delay: -2085ms;
+  }
+  
+  #particle101 {
+    background: #970eff;
+    transform: translateX(-35.85348vmin) translateY(6.83942vmin) scale(0.0886);
+    animation-delay: -2067ms;
+  }
+  
+  #particle102 {
+    background: #ffa273;
+    transform: translateX(4.28661vmin) translateY(6.75462vmin) scale(0.75131);
+    animation-delay: -1489ms;
+  }
+  
+  #particle103 {
+    background: #5500ff;
+    transform: translateX(0vmin) translateY(50vmin) scale(0);
+    animation-delay: -2030ms;
+  }
+  
+  #particle104 {
+    background: #f925ff;
+    transform: translateX(-27.28315vmin) translateY(3.44666vmin) scale(0.23959);
+    animation-delay: -2233ms;
+  }
+  
+  #particle105 {
+    background: #7306ff;
+    transform: translateX(35.92857vmin) translateY(-19.7519vmin) scale(0.03971);
+    animation-delay: -522ms;
+  }
+  
+  #particle106 {
+    background: #e11fff;
+    transform: translateX(29.26738vmin) translateY(-3.69733vmin) scale(0.20032);
+    animation-delay: -660ms;
+  }
+  
+  #particle107 {
+    background: #ca19ff;
+    transform: translateX(-13.41205vmin) translateY(-28.50205vmin) scale(0.16419);
+    animation-delay: -238ms;
+  }
+  
+  #particle108 {
+    background: #af13ff;
+    transform: translateX(-30.76412vmin) translateY(-14.4765vmin) scale(0.12369);
+    animation-delay: -2013ms;
+  }
+  
+  #particle109 {
+    background: #5a01ff;
+    transform: translateX(39.26125vmin) translateY(-24.91595vmin) scale(0.00604);
+    animation-delay: -1125ms;
+  }
+  
+  #particle110 {
+    background: #5700ff;
+    transform: translateX(38.83282vmin) translateY(28.21369vmin) scale(0.00197);
+    animation-delay: -1744ms;
+  }
+  
+  #particle111 {
+    background: #5700ff;
+    transform: translateX(-46.49199vmin) translateY(11.93711vmin) scale(0.00197);
+    animation-delay: -519ms;
+  }
+  
+  #particle112 {
+    background: #e720ff;
+    transform: translateX(28.77133vmin) translateY(3.63466vmin) scale(0.20984);
+    animation-delay: -53ms;
+  }
+  
+  #particle113 {
+    background: #ca19ff;
+    transform: translateX(-28.50205vmin) translateY(-13.41205vmin) scale(0.16419);
+    animation-delay: -2329ms;
+  }
+  
+  #particle114 {
+    background: #af13ff;
+    transform: translateX(32.93183vmin) translateY(8.45546vmin) scale(0.12369);
+    animation-delay: -637ms;
+  }
+  
+  #particle115 {
+    background: #5b01ff;
+    transform: translateX(24.64803vmin) translateY(38.83908vmin) scale(0.00789);
+    animation-delay: -1812ms;
+  }
+  
+  #particle116 {
+    background: #ff2fe1;
+    transform: translateX(-3.07066vmin) translateY(24.30681vmin) scale(0.30409);
+    animation-delay: -1135ms;
+  }
+  
+  #particle117 {
+    background: #6303ff;
+    transform: translateX(33.90258vmin) translateY(28.04666vmin) scale(0.01771);
+    animation-delay: -1294ms;
+  }
+  
+  #particle118 {
+    background: #6d05ff;
+    transform: translateX(41.91712vmin) translateY(-2.6372vmin) scale(0.03142);
+    animation-delay: -2100ms;
+  }
+  
+  #particle119 {
+    background: #5d02ff;
+    transform: translateX(41.16963vmin) translateY(-19.37296vmin) scale(0.00998);
+    animation-delay: -1375ms;
+  }
+  
+  #particle120 {
+    background: #ff36c9;
+    transform: translateX(0vmin) translateY(22.5vmin) scale(0.35055);
+    animation-delay: -2015ms;
+  }
+  
+  #particle121 {
+    background: #7306ff;
+    transform: translateX(41vmin) translateY(0vmin) scale(0.03971);
+    animation-delay: -1325ms;
+  }
+  
+  #particle122 {
+    background: #5500ff;
+    transform: translateX(35.71946vmin) translateY(33.54281vmin) scale(0.00049);
+    animation-delay: -1360ms;
+  }
+  
+  #particle123 {
+    background: #ff846a;
+    transform: translateX(-9.04827vmin) translateY(-4.25779vmin) scale(0.69098);
+    animation-delay: -2382ms;
+  }
+  
+  #particle124 {
+    background: #5a01ff;
+    transform: translateX(45.03912vmin) translateY(11.56408vmin) scale(0.00604);
+    animation-delay: -2309ms;
+  }
+  
+  #particle125 {
+    background: #ff4d86;
+    transform: translateX(-4.10338vmin) translateY(15.98162vmin) scale(0.50454);
+    animation-delay: -141ms;
+  }
+  
+  #particle126 {
+    background: #5500ff;
+    transform: translateX(44.33653vmin) translateY(20.86319vmin) scale(0.00049);
+    animation-delay: -2497ms;
+  }
+  
+  #particle127 {
+    background: #a010ff;
+    transform: translateX(2.22906vmin) translateY(-35.42995vmin) scale(0.10197);
+    animation-delay: -1753ms;
+  }
+  
+  #particle128 {
+    background: #5801ff;
+    transform: translateX(27.62591vmin) translateY(-38.0238vmin) scale(0.00444);
+    animation-delay: -1578ms;
+  }
+  
+  #particle129 {
+    background: #5f02ff;
+    transform: translateX(-26.45034vmin) translateY(36.40576vmin) scale(0.01231);
+    animation-delay: -2272ms;
+  }
+  
+  #particle130 {
+    background: #a010ff;
+    transform: translateX(28.7201vmin) translateY(20.86638vmin) scale(0.10197);
+    animation-delay: -813ms;
+  }
+  
+  #particle131 {
+    background: #e720ff;
+    transform: translateX(1.82093vmin) translateY(28.94278vmin) scale(0.20984);
+    animation-delay: -1794ms;
+  }
+  
+  #particle132 {
+    background: #6303ff;
+    transform: translateX(-32.07462vmin) translateY(30.12007vmin) scale(0.01771);
+    animation-delay: -340ms;
+  }
+  
+  #particle133 {
+    background: #ffe78d;
+    transform: translateX(1.33957vmin) translateY(-2.11082vmin) scale(0.92154);
+    animation-delay: -1293ms;
+  }
+  
+  #particle134 {
+    background: #6804ff;
+    transform: translateX(2.69999vmin) translateY(42.91515vmin) scale(0.02408);
+    animation-delay: -1945ms;
+  }
+  
+  #particle135 {
+    background: #db1dff;
+    transform: translateX(-5.62144vmin) translateY(29.46862vmin) scale(0.19098);
+    animation-delay: -1328ms;
+  }
+  
+  #particle136 {
+    background: #5700ff;
+    transform: translateX(41.62457vmin) translateY(-22.8833vmin) scale(0.00308);
+    animation-delay: -1494ms;
+  }
+  
+  #particle137 {
+    background: #a010ff;
+    transform: translateX(-24.30142vmin) translateY(25.87839vmin) scale(0.10197);
+    animation-delay: -1891ms;
+  }
+  
+  #particle138 {
+    background: #5f02ff;
+    transform: translateX(36.40576vmin) translateY(-26.45034vmin) scale(0.01231);
+    animation-delay: -2386ms;
+  }
+  
+  #particle139 {
+    background: #860aff;
+    transform: translateX(28.06529vmin) translateY(26.35506vmin) scale(0.06456);
+    animation-delay: -725ms;
+  }
+  
+  #particle140 {
+    background: #5801ff;
+    transform: translateX(14.5238vmin) translateY(-44.69966vmin) scale(0.00444);
+    animation-delay: -290ms;
+  }
+  
+  #particle141 {
+    background: #ff7c67;
+    transform: translateX(8.09039vmin) translateY(-6.69295vmin) scale(0.67608);
+    animation-delay: -1046ms;
+  }
+  
+  #particle142 {
+    background: #ffe78d;
+    transform: translateX(2.37764vmin) translateY(-0.77254vmin) scale(0.92154);
+    animation-delay: -828ms;
+  }
+  
+  #particle143 {
+    background: #ff459b;
+    transform: translateX(6.8103vmin) translateY(17.20086vmin) scale(0.45098);
+    animation-delay: -1128ms;
+  }
+  
+  #particle144 {
+    background: #6a04ff;
+    transform: translateX(38.45515vmin) translateY(18.09562vmin) scale(0.02763);
+    animation-delay: -88ms;
+  }
+  
+  #particle145 {
+    background: #5500ff;
+    transform: translateX(-42.2164vmin) translateY(26.79134vmin) scale(0);
+    animation-delay: -58ms;
+  }
+  
+  #particle146 {
+    background: #7a07ff;
+    transform: translateX(33.77312vmin) translateY(-21.43307vmin) scale(0.04894);
+    animation-delay: -786ms;
+  }
+  
+  #particle147 {
+    background: #6503ff;
+    transform: translateX(40.44528vmin) translateY(16.01342vmin) scale(0.02078);
+    animation-delay: -193ms;
+  }
+  
+  #particle148 {
+    background: #5700ff;
+    transform: translateX(42.06272vmin) translateY(23.12418vmin) scale(0.00197);
+    animation-delay: -1011ms;
+  }
+  
+  #particle149 {
+    background: #6804ff;
+    transform: translateX(-10.69367vmin) translateY(41.64908vmin) scale(0.02408);
+    animation-delay: -1460ms;
+  }
+  
+  #particle150 {
+    background: #7306ff;
+    transform: translateX(-12.6697vmin) translateY(38.99332vmin) scale(0.03971);
+    animation-delay: -2268ms;
+  }
+  
+  #particle151 {
+    background: #ff459b;
+    transform: translateX(-7.87692vmin) translateY(-16.7393vmin) scale(0.45098);
+    animation-delay: -141ms;
+  }
+  
+  #particle152 {
+    background: #8e0cff;
+    transform: translateX(-15.96672vmin) translateY(-33.93101vmin) scale(0.07612);
+    animation-delay: -138ms;
+  }
+  
+  #particle153 {
+    background: #9c0fff;
+    transform: translateX(-6.74573vmin) translateY(-35.36234vmin) scale(0.09517);
+    animation-delay: -2150ms;
+  }
+  
+  #particle154 {
+    background: #7005ff;
+    transform: translateX(15.27717vmin) translateY(-38.58572vmin) scale(0.03544);
+    animation-delay: -468ms;
+  }
+  
+  #particle155 {
+    background: #d01aff;
+    transform: translateX(26.17417vmin) translateY(16.61063vmin) scale(0.17292);
+    animation-delay: -1416ms;
+  }
+  
+  #particle156 {
+    background: #b514ff;
+    transform: translateX(-14.26361vmin) translateY(30.31171vmin) scale(0.13137);
+    animation-delay: -2295ms;
+  }
+  
+  #particle157 {
+    background: #a511ff;
+    transform: translateX(-18.75394vmin) translateY(29.55148vmin) scale(0.10899);
+    animation-delay: -2237ms;
+  }
+  
+  #particle158 {
+    background: #ff37c3;
+    transform: translateX(21.61032vmin) translateY(4.12239vmin) scale(0.36258);
+    animation-delay: -948ms;
+  }
+  
+  #particle159 {
+    background: #ff37c3;
+    transform: translateX(10.59858vmin) translateY(-19.27875vmin) scale(0.36258);
+    animation-delay: -1390ms;
+  }
+  
+  #particle160 {
+    background: #7707ff;
+    transform: translateX(38.51779vmin) translateY(-12.51519vmin) scale(0.04421);
+    animation-delay: -1137ms;
+  }
+  
+  #particle161 {
+    background: #ff5478;
+    transform: translateX(-1.88vmin) translateY(-14.88172vmin) scale(0.54601);
+    animation-delay: -2375ms;
+  }
+  
+  #particle162 {
+    background: #5600ff;
+    transform: translateX(30.91506vmin) translateY(-37.36989vmin) scale(0.00111);
+    animation-delay: -464ms;
+  }
+  
+  #particle163 {
+    background: #c518ff;
+    transform: translateX(21.90551vmin) translateY(-23.327vmin) scale(0.15567);
+    animation-delay: -317ms;
+  }
+  
+  #particle164 {
+    background: #5700ff;
+    transform: translateX(46.65864vmin) translateY(8.90061vmin) scale(0.00308);
+    animation-delay: -757ms;
+  }
+  
+  #particle165 {
+    background: #6503ff;
+    transform: translateX(0vmin) translateY(43.5vmin) scale(0.02078);
+    animation-delay: -1732ms;
+  }
+  
+  #particle166 {
+    background: #ba15ff;
+    transform: translateX(27.86282vmin) translateY(-17.68228vmin) scale(0.13926);
+    animation-delay: -962ms;
+  }
+  
+  #particle167 {
+    background: #5f02ff;
+    transform: translateX(-37.99476vmin) translateY(24.11221vmin) scale(0.01231);
+    animation-delay: -747ms;
+  }
+  
+  #particle168 {
+    background: #ff34cf;
+    transform: translateX(20.15505vmin) translateY(11.08033vmin) scale(0.33869);
+    animation-delay: -9ms;
+  }
+  
+  #particle169 {
+    background: #e720ff;
+    transform: translateX(28.48633vmin) translateY(5.43406vmin) scale(0.20984);
+    animation-delay: -2451ms;
+  }
+  
+  #particle170 {
+    background: #5500ff;
+    transform: translateX(-48.61362vmin) translateY(6.14133vmin) scale(0.00049);
+    animation-delay: -779ms;
+  }
+  
+  #particle171 {
+    background: #5801ff;
+    transform: translateX(-29.95893vmin) translateY(36.21412vmin) scale(0.00444);
+    animation-delay: -1668ms;
+  }
+  
+  #particle172 {
+    background: #ff6461;
+    transform: translateX(-11.90538vmin) translateY(1.504vmin) scale(0.63188);
+    animation-delay: -967ms;
+  }
+  
+  #particle173 {
+    background: #5801ff;
+    transform: translateX(-46.1675vmin) translateY(-8.80692vmin) scale(0.00444);
+    animation-delay: -232ms;
+  }
+  
+  #particle174 {
+    background: #8e0cff;
+    transform: translateX(4.7vmin) translateY(37.2043vmin) scale(0.07612);
+    animation-delay: -1671ms;
+  }
+  
+  #particle175 {
+    background: #ff29f3;
+    transform: translateX(8.03444vmin) translateY(24.72747vmin) scale(0.27103);
+    animation-delay: -2123ms;
+  }
+  
+  #particle176 {
+    background: #930dff;
+    transform: translateX(-36.70824vmin) translateY(4.63733vmin) scale(0.08225);
+    animation-delay: -2286ms;
+  }
+  
+  #particle177 {
+    background: #8a0bff;
+    transform: translateX(-22.33584vmin) translateY(-30.74265vmin) scale(0.07022);
+    animation-delay: -2463ms;
+  }
+  
+  #particle178 {
+    background: #5f02ff;
+    transform: translateX(-32.80359vmin) translateY(30.80462vmin) scale(0.01231);
+    animation-delay: -1386ms;
+  }
+  
+  #particle179 {
+    background: #8e0cff;
+    transform: translateX(-33.93101vmin) translateY(15.96672vmin) scale(0.07612);
+    animation-delay: -962ms;
+  }
+  
+  #particle180 {
+    background: #ff2de7;
+    transform: translateX(13.39567vmin) translateY(-21.1082vmin) scale(0.29289);
+    animation-delay: -1901ms;
+  }
+  
+  #particle181 {
+    background: #5600ff;
+    transform: translateX(28.50758vmin) translateY(39.23732vmin) scale(0.00111);
+    animation-delay: -139ms;
+  }
+  
+  #particle182 {
+    background: #5f02ff;
+    transform: translateX(-34.6731vmin) translateY(28.68408vmin) scale(0.01231);
+    animation-delay: -2233ms;
+  }
+  
+  #particle183 {
+    background: #6303ff;
+    transform: translateX(35.59675vmin) translateY(-25.86255vmin) scale(0.01771);
+    animation-delay: -2443ms;
+  }
+  
+  #particle184 {
+    background: #6102ff;
+    transform: translateX(11.0667vmin) translateY(43.10195vmin) scale(0.01489);
+    animation-delay: -1527ms;
+  }
+  
+  #particle185 {
+    background: #ff37c3;
+    transform: translateX(6.79837vmin) translateY(-20.92324vmin) scale(0.36258);
+    animation-delay: -2140ms;
+  }
+  
+  #particle186 {
+    background: #ff517c;
+    transform: translateX(0vmin) translateY(-15.5vmin) scale(0.53207);
+    animation-delay: -1826ms;
+  }
+  
+  #particle187 {
+    background: #c518ff;
+    transform: translateX(-23.327vmin) translateY(-21.90551vmin) scale(0.15567);
+    animation-delay: -2051ms;
+  }
+  
+  #particle188 {
+    background: #5500ff;
+    transform: translateX(-28.80148vmin) translateY(-39.64183vmin) scale(0.00049);
+    animation-delay: -2143ms;
+  }
+  
+  #particle189 {
+    background: #ff4d86;
+    transform: translateX(-13.93141vmin) translateY(-8.84114vmin) scale(0.50454);
+    animation-delay: -2494ms;
+  }
+  
+  #particle190 {
+    background: #7a07ff;
+    transform: translateX(35.05227vmin) translateY(19.27015vmin) scale(0.04894);
+    animation-delay: -408ms;
+  }
+  
+  #particle191 {
+    background: #7a07ff;
+    transform: translateX(-2.51162vmin) translateY(-39.92107vmin) scale(0.04894);
+    animation-delay: -508ms;
+  }
+  
+  #particle192 {
+    background: #ffec8f;
+    transform: translateX(-1.61803vmin) translateY(1.17557vmin) scale(0.93721);
+    animation-delay: -1571ms;
+  }
+  
+  #particle193 {
+    background: #6503ff;
+    transform: translateX(-10.81801vmin) translateY(-42.13337vmin) scale(0.02078);
+    animation-delay: -1480ms;
+  }
+  
+  #particle194 {
+    background: #8a0bff;
+    transform: translateX(18.30664vmin) translateY(33.29965vmin) scale(0.07022);
+    animation-delay: -2293ms;
+  }
+  
+  #particle195 {
+    background: #af13ff;
+    transform: translateX(-18.21811vmin) translateY(28.70715vmin) scale(0.12369);
+    animation-delay: -1285ms;
+  }
+  
+  #particle196 {
+    background: #ffca81;
+    transform: translateX(0.62667vmin) translateY(4.96057vmin) scale(0.84357);
+    animation-delay: -1369ms;
+  }
+  
+  #particle197 {
+    background: #ff30db;
+    transform: translateX(-10.2187vmin) translateY(-21.71585vmin) scale(0.31545);
+    animation-delay: -1397ms;
+  }
+  
+  #particle198 {
+    background: #ff32d5;
+    transform: translateX(17.13076vmin) translateY(16.08686vmin) scale(0.32699);
+    animation-delay: -1246ms;
+  }
+  
+  #particle199 {
+    background: #5d02ff;
+    transform: translateX(5.70266vmin) translateY(45.14122vmin) scale(0.00998);
+    animation-delay: -2420ms;
+  }
+  
+  #particle200 {
+    background: #ff5e62;
+    transform: translateX(6.69783vmin) translateY(-10.5541vmin) scale(0.61732);
+    animation-delay: -2075ms;
+  }
+  
+  #particle201 {
+    background: #7005ff;
+    transform: translateX(26.4531vmin) translateY(-31.9763vmin) scale(0.03544);
+    animation-delay: -2313ms;
+  }
+  
+  #particle202 {
+    background: #e720ff;
+    transform: translateX(19.85187vmin) translateY(-21.14009vmin) scale(0.20984);
+    animation-delay: -2144ms;
+  }
+  
+  #particle203 {
+    background: #5f02ff;
+    transform: translateX(34.6731vmin) translateY(28.68408vmin) scale(0.01231);
+    animation-delay: -286ms;
+  }
+  
+  #particle204 {
+    background: #ed22ff;
+    transform: translateX(-21.95963vmin) translateY(-18.16658vmin) scale(0.21957);
+    animation-delay: -131ms;
+  }
+  
+  #particle205 {
+    background: #5801ff;
+    transform: translateX(-45.52341vmin) translateY(-11.68842vmin) scale(0.00444);
+    animation-delay: -609ms;
+  }
+  
+  #particle206 {
+    background: #a511ff;
+    transform: translateX(-35vmin) translateY(0vmin) scale(0.10899);
+    animation-delay: -2059ms;
+  }
+  
+  #particle207 {
+    background: #5700ff;
+    transform: translateX(-48vmin) translateY(0vmin) scale(0.00197);
+    animation-delay: -350ms;
+  }
+  
+  #particle208 {
+    background: #970eff;
+    transform: translateX(-33.93684vmin) translateY(-13.43655vmin) scale(0.0886);
+    animation-delay: -215ms;
+  }
+  
+  #particle209 {
+    background: #5600ff;
+    transform: translateX(-28.50758vmin) translateY(39.23732vmin) scale(0.00111);
+    animation-delay: -1204ms;
+  }
+  
+  #particle210 {
+    background: #ff936e;
+    transform: translateX(-4.33578vmin) translateY(7.88676vmin) scale(0.72101);
+    animation-delay: -232ms;
+  }
+  
+  #particle211 {
+    background: #ff34cf;
+    transform: translateX(-22.81864vmin) translateY(2.88266vmin) scale(0.33869);
+    animation-delay: -1454ms;
+  }
+  
+  #particle212 {
+    background: #5f02ff;
+    transform: translateX(-8.43216vmin) translateY(44.20293vmin) scale(0.01231);
+    animation-delay: -221ms;
+  }
+  
+  #particle213 {
+    background: #5500ff;
+    transform: translateX(-49.40232vmin) translateY(3.10813vmin) scale(0.00012);
+    animation-delay: -84ms;
+  }
+  
+  #particle214 {
+    background: #f925ff;
+    transform: translateX(-27.0129vmin) translateY(-5.15299vmin) scale(0.23959);
+    animation-delay: -117ms;
+  }
+  
+  #particle215 {
+    background: #7a07ff;
+    transform: translateX(-38.04226vmin) translateY(12.36068vmin) scale(0.04894);
+    animation-delay: -476ms;
+  }
+  
+  #particle216 {
+    background: #8e0cff;
+    transform: translateX(-35.66462vmin) translateY(11.58814vmin) scale(0.07612);
+    animation-delay: -1004ms;
+  }
+  
+  #particle217 {
+    background: #ffc47f;
+    transform: translateX(5.40258vmin) translateY(1.0306vmin) scale(0.82807);
+    animation-delay: -1261ms;
+  }
+  
+  #particle218 {
+    background: #ffa975;
+    transform: translateX(4.0187vmin) translateY(6.33246vmin) scale(0.76655);
+    animation-delay: -1362ms;
+  }
+  
+  #particle219 {
+    background: #5b01ff;
+    transform: translateX(-22.16067vmin) translateY(-40.31011vmin) scale(0.00789);
+    animation-delay: -1648ms;
+  }
+  
+  #particle220 {
+    background: #ff3db2;
+    transform: translateX(9.87595vmin) translateY(17.96429vmin) scale(0.39958);
+    animation-delay: -2151ms;
+  }
+  
+  #particle221 {
+    background: #5500ff;
+    transform: translateX(43.37718vmin) translateY(23.84681vmin) scale(0.00012);
+    animation-delay: -2460ms;
+  }
+  
+  #particle222 {
+    background: #5500ff;
+    transform: translateX(20.86319vmin) translateY(-44.33653vmin) scale(0.00049);
+    animation-delay: -2174ms;
+  }
+  
+  #particle223 {
+    background: #bf17ff;
+    transform: translateX(4.07333vmin) translateY(32.24373vmin) scale(0.14736);
+    animation-delay: -415ms;
+  }
+  
+  #particle224 {
+    background: #c518ff;
+    transform: translateX(5.9962vmin) translateY(31.43319vmin) scale(0.15567);
+    animation-delay: -2403ms;
+  }
+  
+  #particle225 {
+    background: #7005ff;
+    transform: translateX(5.20133vmin) translateY(41.17276vmin) scale(0.03544);
+    animation-delay: -2189ms;
+  }
+  
+  #particle226 {
+    background: #f323ff;
+    transform: translateX(22.65248vmin) translateY(-16.45799vmin) scale(0.22949);
+    animation-delay: -268ms;
+  }
+  
+  #particle227 {
+    background: #aa12ff;
+    transform: translateX(-31.21653vmin) translateY(14.68939vmin) scale(0.11623);
+    animation-delay: -2048ms;
+  }
+  
+  #particle228 {
+    background: #ff4b8b;
+    transform: translateX(13.75329vmin) translateY(9.99235vmin) scale(0.49096);
+    animation-delay: -2326ms;
+  }
+  
+  #particle229 {
+    background: #5500ff;
+    transform: translateX(49.11436vmin) translateY(-9.36907vmin) scale(0);
+    animation-delay: -1821ms;
+  }
+  
+  #particle230 {
+    background: #ff4b8b;
+    transform: translateX(-12.39247vmin) translateY(-11.6373vmin) scale(0.49096);
+    animation-delay: -682ms;
+  }
+  
+  #particle231 {
+    background: #c518ff;
+    transform: translateX(-7.95808vmin) translateY(30.99466vmin) scale(0.15567);
+    animation-delay: -1635ms;
+  }
+  
+  #particle232 {
+    background: #7a07ff;
+    transform: translateX(12.36068vmin) translateY(38.04226vmin) scale(0.04894);
+    animation-delay: -40ms;
+  }
+  
+  #particle233 {
+    background: #e720ff;
+    transform: translateX(0vmin) translateY(29vmin) scale(0.20984);
+    animation-delay: -1423ms;
+  }
+  
+  #particle234 {
+    background: #8209ff;
+    transform: translateX(37.0912vmin) translateY(-12.05166vmin) scale(0.05912);
+    animation-delay: -2158ms;
+  }
+  
+  #particle235 {
+    background: #aa12ff;
+    transform: translateX(2.16627vmin) translateY(34.43192vmin) scale(0.11623);
+    animation-delay: -809ms;
+  }
+  
+  #particle236 {
+    background: #5500ff;
+    transform: translateX(48.13208vmin) translateY(-9.18168vmin) scale(0.00049);
+    animation-delay: -1459ms;
+  }
+  
+  #particle237 {
+    background: #5700ff;
+    transform: translateX(-44.62927vmin) translateY(-17.66998vmin) scale(0.00197);
+    animation-delay: -530ms;
+  }
+  
+  #particle238 {
+    background: #8209ff;
+    transform: translateX(-39vmin) translateY(0vmin) scale(0.05912);
+    animation-delay: -1512ms;
+  }
+  
+  #particle239 {
+    background: #ff3db2;
+    transform: translateX(-18.54895vmin) translateY(-8.72848vmin) scale(0.39958);
+    animation-delay: -1509ms;
+  }
+  
+  #particle240 {
+    background: #ff26ff;
+    transform: translateX(17.21045vmin) translateY(20.80386vmin) scale(0.24989);
+    animation-delay: -1936ms;
+  }
+  
+  #particle241 {
+    background: #ca19ff;
+    transform: translateX(-5.90251vmin) translateY(30.94205vmin) scale(0.16419);
+    animation-delay: -663ms;
+  }
+  
+  #particle242 {
+    background: #7306ff;
+    transform: translateX(-28.06643vmin) translateY(-29.88771vmin) scale(0.03971);
+    animation-delay: -581ms;
+  }
+  
+  #particle243 {
+    background: #6a04ff;
+    transform: translateX(-29.09325vmin) translateY(-30.98117vmin) scale(0.02763);
+    animation-delay: -734ms;
+  }
+  
+  #particle244 {
+    background: #af13ff;
+    transform: translateX(-30.76412vmin) translateY(14.4765vmin) scale(0.12369);
+    animation-delay: -185ms;
+  }
+  
+  #particle245 {
+    background: #5d02ff;
+    transform: translateX(-19.37296vmin) translateY(-41.16963vmin) scale(0.00998);
+    animation-delay: -170ms;
+  }
+  
+  #particle246 {
+    background: #6303ff;
+    transform: translateX(23.57638vmin) translateY(-37.15043vmin) scale(0.01771);
+    animation-delay: -326ms;
+  }
+  
+  #particle247 {
+    background: #6503ff;
+    transform: translateX(42.13337vmin) translateY(-10.81801vmin) scale(0.02078);
+    animation-delay: -214ms;
+  }
+  
+  #particle248 {
+    background: #ca19ff;
+    transform: translateX(29.28796vmin) translateY(-11.59592vmin) scale(0.16419);
+    animation-delay: -1122ms;
+  }
+  
+  #particle249 {
+    background: #7707ff;
+    transform: translateX(-31.20579vmin) translateY(25.81567vmin) scale(0.04421);
+    animation-delay: -1015ms;
+  }
+  
+  #particle250 {
+    background: #ff41a6;
+    transform: translateX(-19.46152vmin) translateY(1.22442vmin) scale(0.42499);
+    animation-delay: -2224ms;
+  }
+  
+  #particle251 {
+    background: #bf17ff;
+    transform: translateX(-31.47895vmin) translateY(8.08242vmin) scale(0.14736);
+    animation-delay: -353ms;
+  }
+  
+  #particle252 {
+    background: #5500ff;
+    transform: translateX(46.48882vmin) translateY(-18.40623vmin) scale(0);
+    animation-delay: -1945ms;
+  }
+  
+  #particle253 {
+    background: #ff3db2;
+    transform: translateX(14.94386vmin) translateY(14.03322vmin) scale(0.39958);
+    animation-delay: -258ms;
+  }
+  
+  #particle254 {
+    background: #5a01ff;
+    transform: translateX(-27.33201vmin) translateY(37.61929vmin) scale(0.00604);
+    animation-delay: -1564ms;
+  }
+  
+  #particle255 {
+    background: #5700ff;
+    transform: translateX(32.85826vmin) translateY(-34.99049vmin) scale(0.00197);
+    animation-delay: -316ms;
+  }
+  
+  #particle256 {
+    background: #ff4b8b;
+    transform: translateX(16.16796vmin) translateY(-5.25329vmin) scale(0.49096);
+    animation-delay: -1506ms;
+  }
+  
+  #particle257 {
+    background: #8e0cff;
+    transform: translateX(-37.2043vmin) translateY(-4.7vmin) scale(0.07612);
+    animation-delay: -2124ms;
+  }
+  
+  #particle258 {
+    background: #a010ff;
+    transform: translateX(20.86638vmin) translateY(28.7201vmin) scale(0.10197);
+    animation-delay: -267ms;
+  }
+  
+  #particle259 {
+    background: #db1dff;
+    transform: translateX(-24.27051vmin) translateY(-17.63356vmin) scale(0.19098);
+    animation-delay: -2459ms;
+  }
+  
+  #particle260 {
+    background: #ff5478;
+    transform: translateX(10.26821vmin) translateY(-10.93453vmin) scale(0.54601);
+    animation-delay: -2036ms;
+  }
+  
+  #particle261 {
+    background: #6a04ff;
+    transform: translateX(5.32666vmin) translateY(-42.16487vmin) scale(0.02763);
+    animation-delay: -2114ms;
+  }
+  
+  #particle262 {
+    background: #ed22ff;
+    transform: translateX(23.05698vmin) translateY(-16.75188vmin) scale(0.21957);
+    animation-delay: -1492ms;
+  }
+  
+  #particle263 {
+    background: #ffb078;
+    transform: translateX(-5.39359vmin) translateY(4.46197vmin) scale(0.78186);
+    animation-delay: -1315ms;
+  }
+  
+  #particle264 {
+    background: #ff43a1;
+    transform: translateX(18.66346vmin) translateY(3.56024vmin) scale(0.43792);
+    animation-delay: -1485ms;
+  }
+  
+  #particle265 {
+    background: #5801ff;
+    transform: translateX(2.95115vmin) translateY(-46.90726vmin) scale(0.00444);
+    animation-delay: -1859ms;
+  }
+  
+  #particle266 {
+    background: #ff8c6c;
+    transform: translateX(-7.68566vmin) translateY(-5.58396vmin) scale(0.70596);
+    animation-delay: -1015ms;
+  }
+  
+  #particle267 {
+    background: #5700ff;
+    transform: translateX(-22.8833vmin) translateY(-41.62457vmin) scale(0.00308);
+    animation-delay: -2157ms;
+  }
+  
+  #particle268 {
+    background: #860aff;
+    transform: translateX(4.82533vmin) translateY(38.19642vmin) scale(0.06456);
+    animation-delay: -136ms;
+  }
+  
+  #particle269 {
+    background: #5500ff;
+    transform: translateX(-24.08768vmin) translateY(43.81533vmin) scale(0);
+    animation-delay: -643ms;
+  }
+  
+  #particle270 {
+    background: #5d02ff;
+    transform: translateX(8.52585vmin) translateY(-44.69407vmin) scale(0.00998);
+    animation-delay: -184ms;
+  }
+  
+  #particle271 {
+    background: #5700ff;
+    transform: translateX(-23.12418vmin) translateY(-42.06272vmin) scale(0.00197);
+    animation-delay: -1551ms;
+  }
+  
+  #particle272 {
+    background: #ca19ff;
+    transform: translateX(3.948vmin) translateY(-31.25161vmin) scale(0.16419);
+    animation-delay: -1135ms;
+  }
+  
+  #particle273 {
+    background: #ff4b8b;
+    transform: translateX(5.25329vmin) translateY(16.16796vmin) scale(0.49096);
+    animation-delay: -1683ms;
+  }
+  
+  #particle274 {
+    background: #ff37c3;
+    transform: translateX(8.09874vmin) translateY(-20.45508vmin) scale(0.36258);
+    animation-delay: -928ms;
+  }
+  
+  #particle275 {
+    background: #e11fff;
+    transform: translateX(-28.97747vmin) translateY(5.52775vmin) scale(0.20032);
+    animation-delay: -893ms;
+  }
+  
+  #particle276 {
+    background: #ff5673;
+    transform: translateX(-6.98543vmin) translateY(12.70645vmin) scale(0.56006);
+    animation-delay: -2480ms;
+  }
+  
+  #particle277 {
+    background: #8a0bff;
+    transform: translateX(36.14015vmin) translateY(11.74265vmin) scale(0.07022);
+    animation-delay: -441ms;
+  }
+  
+  #particle278 {
+    background: #f323ff;
+    transform: translateX(-27.50404vmin) translateY(-5.24668vmin) scale(0.22949);
+    animation-delay: -315ms;
+  }
+  
+  #particle279 {
+    background: #ff5c66;
+    transform: translateX(-3.23297vmin) translateY(-12.59158vmin) scale(0.60285);
+    animation-delay: -2069ms;
+  }
+  
+  #particle280 {
+    background: #5a01ff;
+    transform: translateX(-11.56408vmin) translateY(45.03912vmin) scale(0.00604);
+    animation-delay: -2065ms;
+  }
+  
+  #particle281 {
+    background: #5600ff;
+    transform: translateX(28.50758vmin) translateY(39.23732vmin) scale(0.00111);
+    animation-delay: -2436ms;
+  }
+  
+  #particle282 {
+    background: #ff5478;
+    transform: translateX(-11.5577vmin) translateY(-9.56136vmin) scale(0.54601);
+    animation-delay: -733ms;
+  }
+  
+  #particle283 {
+    background: #8a0bff;
+    transform: translateX(20.36142vmin) translateY(32.08446vmin) scale(0.07022);
+    animation-delay: -1500ms;
+  }
+  
+  #particle284 {
+    background: #5500ff;
+    transform: translateX(-29.09537vmin) translateY(40.04634vmin) scale(0.00012);
+    animation-delay: -2225ms;
+  }
+  
+  #particle285 {
+    background: #ffbe7c;
+    transform: translateX(4.62308vmin) translateY(-3.82454vmin) scale(0.81262);
+    animation-delay: -1848ms;
+  }
+  
+  #particle286 {
+    background: #ff5478;
+    transform: translateX(-13.57241vmin) translateY(6.38669vmin) scale(0.54601);
+    animation-delay: -1017ms;
+  }
+  
+  #particle287 {
+    background: #7005ff;
+    transform: translateX(33.57421vmin) translateY(-24.39309vmin) scale(0.03544);
+    animation-delay: -425ms;
+  }
+  
+  #particle288 {
+    background: #a511ff;
+    transform: translateX(22.30984vmin) translateY(-26.96796vmin) scale(0.10899);
+    animation-delay: -608ms;
+  }
+  
+  #particle289 {
+    background: #ffb078;
+    transform: translateX(2.16312vmin) translateY(6.6574vmin) scale(0.78186);
+    animation-delay: -716ms;
+  }
+  
+  #particle290 {
+    background: #ff5e62;
+    transform: translateX(-3.10862vmin) translateY(12.10729vmin) scale(0.61732);
+    animation-delay: -2422ms;
+  }
+  
+  #particle291 {
+    background: #e11fff;
+    transform: translateX(-25.85105vmin) translateY(14.21173vmin) scale(0.20032);
+    animation-delay: -505ms;
+  }
+  
+  #particle292 {
+    background: #5700ff;
+    transform: translateX(14.67831vmin) translateY(45.17518vmin) scale(0.00308);
+    animation-delay: -2438ms;
+  }
+  
+  #particle293 {
+    background: #6303ff;
+    transform: translateX(-10.94236vmin) translateY(42.61766vmin) scale(0.01771);
+    animation-delay: -2462ms;
+  }
+  
+  #particle294 {
+    background: #7005ff;
+    transform: translateX(-22.23681vmin) translateY(35.03961vmin) scale(0.03544);
+    animation-delay: -1592ms;
+  }
+  
+  #particle295 {
+    background: #5500ff;
+    transform: translateX(-15.29634vmin) translateY(-47.0773vmin) scale(0.00012);
+    animation-delay: -1981ms;
+  }
+  
+  #particle296 {
+    background: #5500ff;
+    transform: translateX(-41.79423vmin) translateY(-26.52343vmin) scale(0.00012);
+    animation-delay: -605ms;
+  }
+  
+  #particle297 {
+    background: #e720ff;
+    transform: translateX(0vmin) translateY(29vmin) scale(0.20984);
+    animation-delay: -1551ms;
+  }
+  
+  #particle298 {
+    background: #e720ff;
+    transform: translateX(12.3476vmin) translateY(26.23998vmin) scale(0.20984);
+    animation-delay: -1049ms;
+  }
+  
+  #particle299 {
+    background: #ff3bb7;
+    transform: translateX(6.48936vmin) translateY(19.97219vmin) scale(0.38709);
+    animation-delay: -1956ms;
+  }
+  
+  #particle300 {
+    background: #ff6c63;
+    transform: translateX(-7.33038vmin) translateY(-8.8609vmin) scale(0.64653);
+    animation-delay: -980ms;
+  }
+  
+  #particle301 {
+    background: #6a04ff;
+    transform: translateX(-30.98117vmin) translateY(-29.09325vmin) scale(0.02763);
+    animation-delay: -2474ms;
+  }
+  
+  #particle302 {
+    background: #8209ff;
+    transform: translateX(-26.69734vmin) translateY(-28.42978vmin) scale(0.05912);
+    animation-delay: -1157ms;
+  }
+  
+  #particle303 {
+    background: #ff36c9;
+    transform: translateX(-19.7169vmin) translateY(-10.83946vmin) scale(0.35055);
+    animation-delay: -1084ms;
+  }
+  
+  #particle304 {
+    background: #ff30db;
+    transform: translateX(7.41641vmin) translateY(22.82536vmin) scale(0.31545);
+    animation-delay: -1963ms;
+  }
+  
+  #particle305 {
+    background: #6804ff;
+    transform: translateX(-5.38933vmin) translateY(-42.66093vmin) scale(0.02408);
+    animation-delay: -1314ms;
+  }
+  
+  #particle306 {
+    background: #5801ff;
+    transform: translateX(46.62939vmin) translateY(-5.89066vmin) scale(0.00444);
+    animation-delay: -999ms;
+  }
+  
+  #particle307 {
+    background: #6a04ff;
+    transform: translateX(-32.74681vmin) translateY(27.09052vmin) scale(0.02763);
+    animation-delay: -273ms;
+  }
+  
+  #particle308 {
+    background: #930dff;
+    transform: translateX(23.58469vmin) translateY(28.50899vmin) scale(0.08225);
+    animation-delay: -560ms;
+  }
+  
+  #particle309 {
+    background: #ffb77a;
+    transform: translateX(-0.40814vmin) translateY(-6.48717vmin) scale(0.79721);
+    animation-delay: -60ms;
+  }
+  
+  #particle310 {
+    background: #ed22ff;
+    transform: translateX(1.78953vmin) translateY(-28.44376vmin) scale(0.21957);
+    animation-delay: -1317ms;
+  }
+  
+  #particle311 {
+    background: #6d05ff;
+    transform: translateX(-39.05061vmin) translateY(-15.46123vmin) scale(0.03142);
+    animation-delay: -2132ms;
+  }
+  
+  #particle312 {
+    background: #ff7c67;
+    transform: translateX(2.61124vmin) translateY(10.17012vmin) scale(0.67608);
+    animation-delay: -118ms;
+  }
+  
+  #particle313 {
+    background: #f323ff;
+    transform: translateX(13.4891vmin) translateY(24.53659vmin) scale(0.22949);
+    animation-delay: -169ms;
+  }
+  
+  #particle314 {
+    background: #5600ff;
+    transform: translateX(33.20053vmin) translateY(35.35498vmin) scale(0.00111);
+    animation-delay: -192ms;
+  }
+  
+  #particle315 {
+    background: #7e08ff;
+    transform: translateX(7.40156vmin) translateY(-38.80035vmin) scale(0.05391);
+    animation-delay: -1328ms;
+  }
+  
+  #particle316 {
+    background: #6503ff;
+    transform: translateX(0vmin) translateY(-43.5vmin) scale(0.02078);
+    animation-delay: -1278ms;
+  }
+  
+  #particle317 {
+    background: #5a01ff;
+    transform: translateX(-19.79874vmin) translateY(42.07446vmin) scale(0.00604);
+    animation-delay: -1163ms;
+  }
+  
+  #particle318 {
+    background: #930dff;
+    transform: translateX(-35.18909vmin) translateY(11.43363vmin) scale(0.08225);
+    animation-delay: -2479ms;
+  }
+  
+  #particle319 {
+    background: #e720ff;
+    transform: translateX(28.48633vmin) translateY(-5.43406vmin) scale(0.20984);
+    animation-delay: -1992ms;
+  }
+  
+  #particle320 {
+    background: #8e0cff;
+    transform: translateX(-37.2043vmin) translateY(4.7vmin) scale(0.07612);
+    animation-delay: -2176ms;
+  }
+  
+  #particle321 {
+    background: #bf17ff;
+    transform: translateX(-25.04168vmin) translateY(20.71628vmin) scale(0.14736);
+    animation-delay: -1334ms;
+  }
+  
+  #particle322 {
+    background: #d61cff;
+    transform: translateX(30.43982vmin) translateY(1.91511vmin) scale(0.18185);
+    animation-delay: -1129ms;
+  }
+  
+  #particle323 {
+    background: #5a01ff;
+    transform: translateX(45.67636vmin) translateY(8.71323vmin) scale(0.00604);
+    animation-delay: -2308ms;
+  }
+  
+  #particle324 {
+    background: #ff4d86;
+    transform: translateX(12.02798vmin) translateY(-11.29503vmin) scale(0.50454);
+    animation-delay: -756ms;
+  }
+  
+  #particle325 {
+    background: #ff517c;
+    transform: translateX(-11.94296vmin) translateY(9.88007vmin) scale(0.53207);
+    animation-delay: -67ms;
+  }
+  
+  #particle326 {
+    background: #ba15ff;
+    transform: translateX(26.69756vmin) translateY(-19.39691vmin) scale(0.13926);
+    animation-delay: -2076ms;
+  }
+  
+  #particle327 {
+    background: #ff34cf;
+    transform: translateX(11.08033vmin) translateY(-20.15505vmin) scale(0.33869);
+    animation-delay: -1713ms;
+  }
+  
+  #particle328 {
+    background: #b514ff;
+    transform: translateX(-8.33111vmin) translateY(-32.44754vmin) scale(0.13137);
+    animation-delay: -722ms;
+  }
+  
+  #particle329 {
+    background: #ff29f3;
+    transform: translateX(1.63255vmin) translateY(-25.94869vmin) scale(0.27103);
+    animation-delay: -332ms;
+  }
+  
+  #particle330 {
+    background: #ff2de7;
+    transform: translateX(-21.90767vmin) translateY(12.04384vmin) scale(0.29289);
+    animation-delay: -1963ms;
+  }
+  
+  #particle331 {
+    background: #b514ff;
+    transform: translateX(-21.3537vmin) translateY(25.81219vmin) scale(0.13137);
+    animation-delay: -1678ms;
+  }
+  
+  #particle332 {
+    background: #6a04ff;
+    transform: translateX(2.6686vmin) translateY(-42.41614vmin) scale(0.02763);
+    animation-delay: -2133ms;
+  }
+  
+  #particle333 {
+    background: #6503ff;
+    transform: translateX(-13.44224vmin) translateY(-41.37096vmin) scale(0.02078);
+    animation-delay: -1698ms;
+  }
+  
+  #particle334 {
+    background: #8a0bff;
+    transform: translateX(24.22211vmin) translateY(29.2795vmin) scale(0.07022);
+    animation-delay: -1930ms;
+  }
+  
+  #particle335 {
+    background: #ffa273;
+    transform: translateX(-0.50232vmin) translateY(7.98421vmin) scale(0.75131);
+    animation-delay: -2137ms;
+  }
+  
+  #particle336 {
+    background: #d01aff;
+    transform: translateX(-3.88533vmin) translateY(30.75556vmin) scale(0.17292);
+    animation-delay: -1185ms;
+  }
+  
+  #particle337 {
+    background: #ff2fe1;
+    transform: translateX(-15.61689vmin) translateY(18.87757vmin) scale(0.30409);
+    animation-delay: -1464ms;
+  }
+  
+  #particle338 {
+    background: #aa12ff;
+    transform: translateX(20.27859vmin) translateY(27.91109vmin) scale(0.11623);
+    animation-delay: -956ms;
+  }
+  
+  #particle339 {
+    background: #aa12ff;
+    transform: translateX(23.61688vmin) translateY(25.14942vmin) scale(0.11623);
+    animation-delay: -707ms;
+  }
+  
+  #particle340 {
+    background: #ff4796;
+    transform: translateX(5.56231vmin) translateY(-17.11902vmin) scale(0.46417);
+    animation-delay: -817ms;
+  }
+  
+  #particle341 {
+    background: #f323ff;
+    transform: translateX(-23.64118vmin) translateY(-15.00315vmin) scale(0.22949);
+    animation-delay: -260ms;
+  }
+  
+  #particle342 {
+    background: #ff36c9;
+    transform: translateX(13.22517vmin) translateY(18.20288vmin) scale(0.35055);
+    animation-delay: -892ms;
+  }
+  
+  #particle343 {
+    background: #6a04ff;
+    transform: translateX(-32.74681vmin) translateY(-27.09052vmin) scale(0.02763);
+    animation-delay: -75ms;
+  }
+  
+  #particle344 {
+    background: #aa12ff;
+    transform: translateX(2.16627vmin) translateY(34.43192vmin) scale(0.11623);
+    animation-delay: -466ms;
+  }
+  
+  #particle345 {
+    background: #5500ff;
+    transform: translateX(-18.40623vmin) translateY(46.48882vmin) scale(0);
+    animation-delay: -1235ms;
+  }
+  
+  #particle346 {
+    background: #970eff;
+    transform: translateX(-13.43655vmin) translateY(33.93684vmin) scale(0.0886);
+    animation-delay: -216ms;
+  }
+  
+  #particle347 {
+    background: #6503ff;
+    transform: translateX(-10.81801vmin) translateY(-42.13337vmin) scale(0.02078);
+    animation-delay: -63ms;
+  }
+  
+  #particle348 {
+    background: #ff32d5;
+    transform: translateX(-22.7617vmin) translateY(5.84421vmin) scale(0.32699);
+    animation-delay: -1719ms;
+  }
+  
+  #particle349 {
+    background: #d01aff;
+    transform: translateX(7.70939vmin) translateY(-30.02608vmin) scale(0.17292);
+    animation-delay: -1595ms;
+  }
+  
+  #particle350 {
+    background: #9c0fff;
+    transform: translateX(34.23803vmin) translateY(11.12461vmin) scale(0.09517);
+    animation-delay: -616ms;
+  }
+  
+  #particle351 {
+    background: #6a04ff;
+    transform: translateX(42.5vmin) translateY(0vmin) scale(0.02763);
+    animation-delay: -524ms;
+  }
+  
+  #particle352 {
+    background: #ba15ff;
+    transform: translateX(15.89787vmin) translateY(28.91812vmin) scale(0.13926);
+    animation-delay: -1337ms;
+  }
+  
+  #particle353 {
+    background: #5700ff;
+    transform: translateX(-40.52774vmin) translateY(-25.71969vmin) scale(0.00197);
+    animation-delay: -2500ms;
+  }
+  
+  #particle354 {
+    background: #7306ff;
+    transform: translateX(-21.9689vmin) translateY(34.61744vmin) scale(0.03971);
+    animation-delay: -1646ms;
+  }
+  
+  #particle355 {
+    background: #ff32d5;
+    transform: translateX(2.94533vmin) translateY(-23.3147vmin) scale(0.32699);
+    animation-delay: -809ms;
+  }
+  
+  #particle356 {
+    background: #ed22ff;
+    transform: translateX(8.80698vmin) translateY(27.10511vmin) scale(0.21957);
+    animation-delay: -1585ms;
+  }
+  
+  #particle357 {
+    background: #ff34cf;
+    transform: translateX(-7.10739vmin) translateY(21.8743vmin) scale(0.33869);
+    animation-delay: -1996ms;
+  }
+  
+  #particle358 {
+    background: #9c0fff;
+    transform: translateX(35.71613vmin) translateY(4.512vmin) scale(0.09517);
+    animation-delay: -2489ms;
+  }
+  
+  #particle359 {
+    background: #6a04ff;
+    transform: translateX(2.6686vmin) translateY(42.41614vmin) scale(0.02763);
+    animation-delay: -935ms;
+  }
+  
+  #particle360 {
+    background: #ff41a6;
+    transform: translateX(-14.21489vmin) translateY(13.34867vmin) scale(0.42499);
+    animation-delay: -2092ms;
+  }
+  
+  #particle361 {
+    background: #9c0fff;
+    transform: translateX(-34.86899vmin) translateY(-8.95284vmin) scale(0.09517);
+    animation-delay: -450ms;
+  }
+  
+  #particle362 {
+    background: #ff4796;
+    transform: translateX(17.68117vmin) translateY(3.37286vmin) scale(0.46417);
+    animation-delay: -1223ms;
+  }
+  
+  #particle363 {
+    background: #ff28f9;
+    transform: translateX(-18.1405vmin) translateY(-19.31767vmin) scale(0.26037);
+    animation-delay: -1576ms;
+  }
+  
+  #particle364 {
+    background: #7306ff;
+    transform: translateX(-29.88771vmin) translateY(28.06643vmin) scale(0.03971);
+    animation-delay: -1888ms;
+  }
+  
+  #particle365 {
+    background: #ff26ff;
+    transform: translateX(-24.43033vmin) translateY(11.49604vmin) scale(0.24989);
+    animation-delay: -1726ms;
+  }
+  
+  #particle366 {
+    background: #7e08ff;
+    transform: translateX(-36.72617vmin) translateY(14.54092vmin) scale(0.05391);
+    animation-delay: -169ms;
+  }
+  
+  #particle367 {
+    background: #db1dff;
+    transform: translateX(-27.14481vmin) translateY(-12.77338vmin) scale(0.19098);
+    animation-delay: -182ms;
+  }
+  
+  #particle368 {
+    background: #e11fff;
+    transform: translateX(-26.6924vmin) translateY(-12.56049vmin) scale(0.20032);
+    animation-delay: -721ms;
+  }
+  
+  #particle369 {
+    background: #6d05ff;
+    transform: translateX(7.87002vmin) translateY(41.25606vmin) scale(0.03142);
+    animation-delay: -316ms;
+  }
+  
+  #particle370 {
+    background: #8209ff;
+    transform: translateX(37.77474vmin) translateY(-9.69891vmin) scale(0.05912);
+    animation-delay: -1972ms;
+  }
+  
+  #particle371 {
+    background: #a010ff;
+    transform: translateX(28.7201vmin) translateY(-20.86638vmin) scale(0.10197);
+    animation-delay: -677ms;
+  }
+  
+  #particle372 {
+    background: #860aff;
+    transform: translateX(-28.06529vmin) translateY(26.35506vmin) scale(0.06456);
+    animation-delay: -1541ms;
+  }
+  
+  #particle373 {
+    background: #ff4991;
+    transform: translateX(-16.95021vmin) translateY(-4.35207vmin) scale(0.4775);
+    animation-delay: -583ms;
+  }
+  
+  #particle374 {
+    background: #ca19ff;
+    transform: translateX(15.17524vmin) translateY(-27.60366vmin) scale(0.16419);
+    animation-delay: -2099ms;
+  }
+  
+  #particle375 {
+    background: #930dff;
+    transform: translateX(28.50899vmin) translateY(-23.58469vmin) scale(0.08225);
+    animation-delay: -1044ms;
+  }
+  
+  #particle376 {
+    background: #ff8c6c;
+    transform: translateX(-4.57666vmin) translateY(-8.32491vmin) scale(0.70596);
+    animation-delay: -205ms;
+  }
+  
+  #particle377 {
+    background: #6a04ff;
+    transform: translateX(-35.88394vmin) translateY(-22.77264vmin) scale(0.02763);
+    animation-delay: -1898ms;
+  }
+  
+  #particle378 {
+    background: #ff9b71;
+    transform: translateX(6.87664vmin) translateY(4.99617vmin) scale(0.73613);
+    animation-delay: -805ms;
+  }
+  
+  #particle379 {
+    background: #af13ff;
+    transform: translateX(-31.6124vmin) translateY(12.51623vmin) scale(0.12369);
+    animation-delay: -1226ms;
+  }
+  
+  #particle380 {
+    background: #8e0cff;
+    transform: translateX(23.9034vmin) translateY(28.89425vmin) scale(0.07612);
+    animation-delay: -1828ms;
+  }
+  
+  #particle381 {
+    background: #ffc47f;
+    transform: translateX(-2.02469vmin) translateY(5.11377vmin) scale(0.82807);
+    animation-delay: -460ms;
+  }
+  
+  #particle382 {
+    background: #6303ff;
+    transform: translateX(37.15043vmin) translateY(-23.57638vmin) scale(0.01771);
+    animation-delay: -1020ms;
+  }
+  
+  #particle383 {
+    background: #b514ff;
+    transform: translateX(33.23584vmin) translateY(4.19866vmin) scale(0.13137);
+    animation-delay: -1538ms;
+  }
+  
+  #particle384 {
+    background: #d01aff;
+    transform: translateX(-29.48275vmin) translateY(9.57953vmin) scale(0.17292);
+    animation-delay: -838ms;
+  }
+  
+  #particle385 {
+    background: #5500ff;
+    transform: translateX(-48.90331vmin) translateY(3.07674vmin) scale(0.00049);
+    animation-delay: -939ms;
+  }
+  
+  #particle386 {
+    background: #6102ff;
+    transform: translateX(36.00126vmin) translateY(26.15644vmin) scale(0.01489);
+    animation-delay: -1482ms;
+  }
+  
+  #particle387 {
+    background: #5b01ff;
+    transform: translateX(33.53256vmin) translateY(31.48917vmin) scale(0.00789);
+    animation-delay: -1393ms;
+  }
+  
+  #particle388 {
+    background: #ffca81;
+    transform: translateX(3.64484vmin) translateY(3.42274vmin) scale(0.84357);
+    animation-delay: -364ms;
+  }
+  
+  #particle389 {
+    background: #5500ff;
+    transform: translateX(-39.64183vmin) translateY(-28.80148vmin) scale(0.00049);
+    animation-delay: -1931ms;
+  }
+  
+  #particle390 {
+    background: #5b01ff;
+    transform: translateX(37.21478vmin) translateY(27.03812vmin) scale(0.00789);
+    animation-delay: -356ms;
+  }
+  
+  #particle391 {
+    background: #ff5673;
+    transform: translateX(-12.24275vmin) translateY(7.76949vmin) scale(0.56006);
+    animation-delay: -291ms;
+  }
+  
+  #particle392 {
+    background: #aa12ff;
+    transform: translateX(-32.07729vmin) translateY(-12.7003vmin) scale(0.11623);
+    animation-delay: -1034ms;
+  }
+  
+  #particle393 {
+    background: #6d05ff;
+    transform: translateX(-24.68698vmin) translateY(-33.97871vmin) scale(0.03142);
+    animation-delay: -1178ms;
+  }
+  
+  #particle394 {
+    background: #7306ff;
+    transform: translateX(-26.13438vmin) translateY(31.59104vmin) scale(0.03971);
+    animation-delay: -868ms;
+  }
+  
+  #particle395 {
+    background: #6804ff;
+    transform: translateX(27.40923vmin) translateY(33.13207vmin) scale(0.02408);
+    animation-delay: -2482ms;
+  }
+  
+  #particle396 {
+    background: #5700ff;
+    transform: translateX(47.14979vmin) translateY(-8.9943vmin) scale(0.00197);
+    animation-delay: -1464ms;
+  }
+  
+  #particle397 {
+    background: #a511ff;
+    transform: translateX(14.90228vmin) translateY(-31.66895vmin) scale(0.10899);
+    animation-delay: -2491ms;
+  }
+  
+  #particle398 {
+    background: #5700ff;
+    transform: translateX(6.016vmin) translateY(-47.62151vmin) scale(0.00197);
+    animation-delay: -784ms;
+  }
+  
+  #particle399 {
+    background: #5d02ff;
+    transform: translateX(42.30483vmin) translateY(-16.74967vmin) scale(0.00998);
+    animation-delay: -2058ms;
+  }
+  
+  #particle400 {
+    background: #e720ff;
+    transform: translateX(-1.82093vmin) translateY(-28.94278vmin) scale(0.20984);
+    animation-delay: -849ms;
+  }
+  
+  #particle401 {
+    background: #ff41a6;
+    transform: translateX(0vmin) translateY(19.5vmin) scale(0.42499);
+    animation-delay: -2498ms;
+  }
+  
+  #particle402 {
+    background: #f323ff;
+    transform: translateX(-13.4891vmin) translateY(-24.53659vmin) scale(0.22949);
+    animation-delay: -1629ms;
+  }
+  
+  #particle403 {
+    background: #ed22ff;
+    transform: translateX(24.97474vmin) translateY(-13.72998vmin) scale(0.21957);
+    animation-delay: -1277ms;
+  }
+  
+  #particle404 {
+    background: #5500ff;
+    transform: translateX(21.28896vmin) translateY(45.24135vmin) scale(0);
+    animation-delay: -1334ms;
+  }
+  
+  #particle405 {
+    background: #7005ff;
+    transform: translateX(7.77632vmin) translateY(40.76492vmin) scale(0.03544);
+    animation-delay: -1995ms;
+  }
+  
+  #particle406 {
+    background: #ff28f9;
+    transform: translateX(11.28315vmin) translateY(23.97792vmin) scale(0.26037);
+    animation-delay: -1289ms;
+  }
+  
+  #particle407 {
+    background: #930dff;
+    transform: translateX(-35.83758vmin) translateY(9.20153vmin) scale(0.08225);
+    animation-delay: -2459ms;
+  }
+  
+  #particle408 {
+    background: #5700ff;
+    transform: translateX(17.66998vmin) translateY(44.62927vmin) scale(0.00197);
+    animation-delay: -292ms;
+  }
+  
+  #particle409 {
+    background: #7a07ff;
+    transform: translateX(-2.51162vmin) translateY(39.92107vmin) scale(0.04894);
+    animation-delay: -2130ms;
+  }
+  
+  #particle410 {
+    background: #ed22ff;
+    transform: translateX(-28.5vmin) translateY(0vmin) scale(0.21957);
+    animation-delay: -1926ms;
+  }
+  
+  #particle411 {
+    background: #ff4991;
+    transform: translateX(1.09883vmin) translateY(17.46547vmin) scale(0.4775);
+    animation-delay: -7ms;
+  }
+  
+  #particle412 {
+    background: #7a07ff;
+    transform: translateX(-7.49525vmin) translateY(-39.29149vmin) scale(0.04894);
+    animation-delay: -1454ms;
+  }
+  
+  #particle413 {
+    background: #7005ff;
+    transform: translateX(-15.27717vmin) translateY(-38.58572vmin) scale(0.03544);
+    animation-delay: -420ms;
+  }
+  
+  #particle414 {
+    background: #5b01ff;
+    transform: translateX(16.93373vmin) translateY(42.76972vmin) scale(0.00789);
+    animation-delay: -1179ms;
+  }
+  
+  #particle415 {
+    background: #8209ff;
+    transform: translateX(36.26128vmin) translateY(-14.35686vmin) scale(0.05912);
+    animation-delay: -2438ms;
+  }
+  
+  #particle416 {
+    background: #ff5478;
+    transform: translateX(-10.26821vmin) translateY(10.93453vmin) scale(0.54601);
+    animation-delay: -318ms;
+  }
+  
+  #particle417 {
+    background: #f323ff;
+    transform: translateX(-5.24668vmin) translateY(27.50404vmin) scale(0.22949);
+    animation-delay: -1412ms;
+  }
+  
+  #particle418 {
+    background: #ffb77a;
+    transform: translateX(-6.5vmin) translateY(0vmin) scale(0.79721);
+    animation-delay: -1761ms;
+  }
+  
+  #particle419 {
+    background: #d01aff;
+    transform: translateX(22.59803vmin) translateY(-21.22096vmin) scale(0.17292);
+    animation-delay: -2127ms;
+  }
+  
+  #particle420 {
+    background: #5700ff;
+    transform: translateX(47.62151vmin) translateY(6.016vmin) scale(0.00197);
+    animation-delay: -2087ms;
+  }
+  
+  #particle421 {
+    background: #ff30db;
+    transform: translateX(24vmin) translateY(0vmin) scale(0.31545);
+    animation-delay: -1648ms;
+  }
+  
+  #particle422 {
+    background: #8a0bff;
+    transform: translateX(-36.14015vmin) translateY(-11.74265vmin) scale(0.07022);
+    animation-delay: -2452ms;
+  }
+  
+  #particle423 {
+    background: #ed22ff;
+    transform: translateX(16.75188vmin) translateY(23.05698vmin) scale(0.21957);
+    animation-delay: -1630ms;
+  }
+  
+  #particle424 {
+    background: #7e08ff;
+    transform: translateX(-39.18853vmin) translateY(4.95066vmin) scale(0.05391);
+    animation-delay: -640ms;
+  }
+  
+  #particle425 {
+    background: #8e0cff;
+    transform: translateX(-25.67052vmin) translateY(-27.33632vmin) scale(0.07612);
+    animation-delay: -2390ms;
+  }
+  
+  #particle426 {
+    background: #ff586e;
+    transform: translateX(-13.97237vmin) translateY(-0.87907vmin) scale(0.57422);
+    animation-delay: -1896ms;
+  }
+  
+  #particle427 {
+    background: #ff30db;
+    transform: translateX(7.41641vmin) translateY(22.82536vmin) scale(0.31545);
+    animation-delay: -1684ms;
+  }
+  
+  #particle428 {
+    background: #970eff;
+    transform: translateX(-31.98519vmin) translateY(-17.58401vmin) scale(0.0886);
+    animation-delay: -2364ms;
+  }
+  
+  #particle429 {
+    background: #ff34cf;
+    transform: translateX(-2.88266vmin) translateY(22.81864vmin) scale(0.33869);
+    animation-delay: -236ms;
+  }
+  
+  #particle430 {
+    background: #5500ff;
+    transform: translateX(28.80148vmin) translateY(39.64183vmin) scale(0.00049);
+    animation-delay: -537ms;
+  }
+  
+  #particle431 {
+    background: #970eff;
+    transform: translateX(-35.35329vmin) translateY(-9.07718vmin) scale(0.0886);
+    animation-delay: -1161ms;
+  }
+  
+  #particle432 {
+    background: #e11fff;
+    transform: translateX(-1.85232vmin) translateY(-29.44179vmin) scale(0.20032);
+    animation-delay: -733ms;
+  }
+  
+  #particle433 {
+    background: #5f02ff;
+    transform: translateX(-37.99476vmin) translateY(-24.11221vmin) scale(0.01231);
+    animation-delay: -876ms;
+  }
+  
+  #particle434 {
+    background: #a010ff;
+    transform: translateX(35.5vmin) translateY(0vmin) scale(0.10197);
+    animation-delay: -2309ms;
+  }
+  
+  #particle435 {
+    background: #6a04ff;
+    transform: translateX(-22.77264vmin) translateY(35.88394vmin) scale(0.02763);
+    animation-delay: -779ms;
+  }
+  
+  #particle436 {
+    background: #5500ff;
+    transform: translateX(-46.48882vmin) translateY(-18.40623vmin) scale(0);
+    animation-delay: -2127ms;
+  }
+  
+  #particle437 {
+    background: #8e0cff;
+    transform: translateX(11.58814vmin) translateY(-35.66462vmin) scale(0.07612);
+    animation-delay: -1769ms;
+  }
+  
+  #particle438 {
+    background: #6d05ff;
+    transform: translateX(-36.80488vmin) translateY(20.23365vmin) scale(0.03142);
+    animation-delay: -788ms;
+  }
+  
+  #particle439 {
+    background: #5b01ff;
+    transform: translateX(-45.18521vmin) translateY(-8.61954vmin) scale(0.00789);
+    animation-delay: -2196ms;
+  }
+  
+  #particle440 {
+    background: #e720ff;
+    transform: translateX(26.96352vmin) translateY(-10.67561vmin) scale(0.20984);
+    animation-delay: -1535ms;
+  }
+  
+  #particle441 {
+    background: #ff5c66;
+    transform: translateX(7.64121vmin) translateY(-10.51722vmin) scale(0.60285);
+    animation-delay: -166ms;
+  }
+  
+  #particle442 {
+    background: #ff4991;
+    transform: translateX(-17.46547vmin) translateY(-1.09883vmin) scale(0.4775);
+    animation-delay: -2211ms;
+  }
+  
+  #particle443 {
+    background: #ff37c3;
+    transform: translateX(-19.27875vmin) translateY(-10.59858vmin) scale(0.36258);
+    animation-delay: -1823ms;
+  }
+  
+  #particle444 {
+    background: #5700ff;
+    transform: translateX(-48vmin) translateY(0vmin) scale(0.00197);
+    animation-delay: -971ms;
+  }
+  
+  #particle445 {
+    background: #ed22ff;
+    transform: translateX(27.60462vmin) translateY(-7.08766vmin) scale(0.21957);
+    animation-delay: -673ms;
+  }
+  
+  #particle446 {
+    background: #db1dff;
+    transform: translateX(-16.0748vmin) translateY(-25.32984vmin) scale(0.19098);
+    animation-delay: -979ms;
+  }
+  
+  #particle447 {
+    background: #ff30db;
+    transform: translateX(14.10685vmin) translateY(-19.41641vmin) scale(0.31545);
+    animation-delay: -329ms;
+  }
+  
+  #particle448 {
+    background: #8e0cff;
+    transform: translateX(35.66462vmin) translateY(-11.58814vmin) scale(0.07612);
+    animation-delay: -1839ms;
+  }
+  
+  #particle449 {
+    background: #aa12ff;
+    transform: translateX(-26.58271vmin) translateY(21.99113vmin) scale(0.11623);
+    animation-delay: -1998ms;
+  }
+  
+  #particle450 {
+    background: #7a07ff;
+    transform: translateX(-38.74333vmin) translateY(-9.9476vmin) scale(0.04894);
+    animation-delay: -1689ms;
+  }
+  
+  #particle451 {
+    background: #7005ff;
+    transform: translateX(-39.46885vmin) translateY(-12.82421vmin) scale(0.03544);
+    animation-delay: -2294ms;
+  }
+  
+  #particle452 {
+    background: #6d05ff;
+    transform: translateX(20.23365vmin) translateY(36.80488vmin) scale(0.03142);
+    animation-delay: -106ms;
+  }
+  
+  #particle453 {
+    background: #ff32d5;
+    transform: translateX(22.7617vmin) translateY(5.84421vmin) scale(0.32699);
+    animation-delay: -2351ms;
+  }
+  
+  #particle454 {
+    background: #f323ff;
+    transform: translateX(-21.57437vmin) translateY(-17.84787vmin) scale(0.22949);
+    animation-delay: -1342ms;
+  }
+  
+  #particle455 {
+    background: #d01aff;
+    transform: translateX(-21.22096vmin) translateY(22.59803vmin) scale(0.17292);
+    animation-delay: -1079ms;
+  }
+  
+  #particle456 {
+    background: #ff26ff;
+    transform: translateX(-19.68215vmin) translateY(-18.48277vmin) scale(0.24989);
+    animation-delay: -1170ms;
+  }
+  
+  #particle457 {
+    background: #ff36c9;
+    transform: translateX(-1.41279vmin) translateY(-22.4556vmin) scale(0.35055);
+    animation-delay: -1109ms;
+  }
+  
+  #particle458 {
+    background: #5a01ff;
+    transform: translateX(-31.83144vmin) translateY(-33.89704vmin) scale(0.00604);
+    animation-delay: -394ms;
+  }
+  
+  #particle459 {
+    background: #f323ff;
+    transform: translateX(26.03374vmin) translateY(-10.30749vmin) scale(0.22949);
+    animation-delay: -1218ms;
+  }
+  
+  #particle460 {
+    background: #ff5c66;
+    transform: translateX(-12.89749vmin) translateY(1.62933vmin) scale(0.60285);
+    animation-delay: -1400ms;
+  }
+  
+  #particle461 {
+    background: #ff4b8b;
+    transform: translateX(-11.6373vmin) translateY(12.39247vmin) scale(0.49096);
+    animation-delay: -2039ms;
+  }
+  
+  #particle462 {
+    background: #d61cff;
+    transform: translateX(29.95976vmin) translateY(-5.71513vmin) scale(0.18185);
+    animation-delay: -520ms;
+  }
+  
+  #particle463 {
+    background: #ff7c67;
+    transform: translateX(9.50068vmin) translateY(4.47068vmin) scale(0.67608);
+    animation-delay: -2332ms;
+  }
+  
+  #particle464 {
+    background: #bf17ff;
+    transform: translateX(-17.41437vmin) translateY(-27.44066vmin) scale(0.14736);
+    animation-delay: -201ms;
+  }
+  
+  #particle465 {
+    background: #ff2fe1;
+    transform: translateX(-20.68603vmin) translateY(13.12776vmin) scale(0.30409);
+    animation-delay: -1200ms;
+  }
+  
+  #particle466 {
+    background: #5500ff;
+    transform: translateX(47.0773vmin) translateY(15.29634vmin) scale(0.00012);
+    animation-delay: -326ms;
+  }
+  
+  #particle467 {
+    background: #5500ff;
+    transform: translateX(-48.62322vmin) translateY(9.27538vmin) scale(0.00012);
+    animation-delay: -2184ms;
+  }
+  
+  #particle468 {
+    background: #ffd786;
+    transform: translateX(-3.99211vmin) translateY(0.25116vmin) scale(0.87467);
+    animation-delay: -1286ms;
+  }
+  
+  #particle469 {
+    background: #a511ff;
+    transform: translateX(-34.38005vmin) translateY(-6.55835vmin) scale(0.10899);
+    animation-delay: -2051ms;
+  }
+  
+  #particle470 {
+    background: #8a0bff;
+    transform: translateX(-22.33584vmin) translateY(-30.74265vmin) scale(0.07022);
+    animation-delay: -818ms;
+  }
+  
+  #particle471 {
+    background: #ff936e;
+    transform: translateX(-1.128vmin) translateY(-8.92903vmin) scale(0.72101);
+    animation-delay: -640ms;
+  }
+  
+  #particle472 {
+    background: #5801ff;
+    transform: translateX(-42.52687vmin) translateY(-20.01163vmin) scale(0.00444);
+    animation-delay: -1054ms;
+  }
+  
+  #particle473 {
+    background: #ff3db2;
+    transform: translateX(-5.09814vmin) translateY(-19.85595vmin) scale(0.39958);
+    animation-delay: -1510ms;
+  }
+  
+  #particle474 {
+    background: #5f02ff;
+    transform: translateX(-16.5656vmin) translateY(41.83994vmin) scale(0.01231);
+    animation-delay: -683ms;
+  }
+  
+  #particle475 {
+    background: #6102ff;
+    transform: translateX(44.1491vmin) translateY(-5.57733vmin) scale(0.01489);
+    animation-delay: -2144ms;
+  }
+  
+  #particle476 {
+    background: #5b01ff;
+    transform: translateX(41.62204vmin) translateY(19.58585vmin) scale(0.00789);
+    animation-delay: -2493ms;
+  }
+  
+  #particle477 {
+    background: #e720ff;
+    transform: translateX(-10.67561vmin) translateY(26.96352vmin) scale(0.20984);
+    animation-delay: -1949ms;
+  }
+  
+  #particle478 {
+    background: #6804ff;
+    transform: translateX(-25.27477vmin) translateY(34.78773vmin) scale(0.02408);
+    animation-delay: -469ms;
+  }
+  
+  #particle479 {
+    background: #6102ff;
+    transform: translateX(16.38154vmin) translateY(-41.37505vmin) scale(0.01489);
+    animation-delay: -1636ms;
+  }
+  
+  #particle480 {
+    background: #7e08ff;
+    transform: translateX(12.20617vmin) translateY(37.56673vmin) scale(0.05391);
+    animation-delay: -1002ms;
+  }
+  
+  #particle481 {
+    background: #ff3bb7;
+    transform: translateX(-11.25236vmin) translateY(17.73089vmin) scale(0.38709);
+    animation-delay: -2260ms;
+  }
+  
+  #particle482 {
+    background: #f925ff;
+    transform: translateX(27.0129vmin) translateY(5.15299vmin) scale(0.23959);
+    animation-delay: -829ms;
+  }
+  
+  #particle483 {
+    background: #ff2de7;
+    transform: translateX(12.04384vmin) translateY(21.90767vmin) scale(0.29289);
+    animation-delay: -1522ms;
+  }
+  
+  #particle484 {
+    background: #af13ff;
+    transform: translateX(33.7319vmin) translateY(4.26133vmin) scale(0.12369);
+    animation-delay: -1235ms;
+  }
+  
+  #particle485 {
+    background: #d61cff;
+    transform: translateX(17.92745vmin) translateY(24.67502vmin) scale(0.18185);
+    animation-delay: -1021ms;
+  }
+  
+  #particle486 {
+    background: #5a01ff;
+    transform: translateX(-40.74826vmin) translateY(22.40155vmin) scale(0.00604);
+    animation-delay: -1010ms;
+  }
+  
+  #particle487 {
+    background: #e11fff;
+    transform: translateX(-14.21173vmin) translateY(-25.85105vmin) scale(0.20032);
+    animation-delay: -886ms;
+  }
+  
+  #particle488 {
+    background: #5d02ff;
+    transform: translateX(-35.05835vmin) translateY(29.00279vmin) scale(0.00998);
+    animation-delay: -1394ms;
+  }
+  
+  #particle489 {
+    background: #a511ff;
+    transform: translateX(-6.55835vmin) translateY(-34.38005vmin) scale(0.10899);
+    animation-delay: -1249ms;
+  }
+  
+  #particle490 {
+    background: #5500ff;
+    transform: translateX(-46.60177vmin) translateY(15.14183vmin) scale(0.00049);
+    animation-delay: -2261ms;
+  }
+  
+  #particle491 {
+    background: #7a07ff;
+    transform: translateX(30.82053vmin) translateY(25.49696vmin) scale(0.04894);
+    animation-delay: -1225ms;
+  }
+  
+  #particle492 {
+    background: #8a0bff;
+    transform: translateX(18.30664vmin) translateY(-33.29965vmin) scale(0.07022);
+    animation-delay: -504ms;
+  }
+  
+  #particle493 {
+    background: #ff5673;
+    transform: translateX(14.38566vmin) translateY(-1.81733vmin) scale(0.56006);
+    animation-delay: -2410ms;
+  }
+  
+  #particle494 {
+    background: #5a01ff;
+    transform: translateX(-14.36929vmin) translateY(44.22413vmin) scale(0.00604);
+    animation-delay: -590ms;
+  }
+  
+  #particle495 {
+    background: #5500ff;
+    transform: translateX(41.79423vmin) translateY(26.52343vmin) scale(0.00012);
+    animation-delay: -1682ms;
+  }
+  
+  #particle496 {
+    background: #7a07ff;
+    transform: translateX(-29.15875vmin) translateY(-27.38188vmin) scale(0.04894);
+    animation-delay: -1832ms;
+  }
+  
+  #particle497 {
+    background: #ff34cf;
+    transform: translateX(23vmin) translateY(0vmin) scale(0.33869);
+    animation-delay: -63ms;
+  }
+  
+  #particle498 {
+    background: #5801ff;
+    transform: translateX(38.0238vmin) translateY(27.62591vmin) scale(0.00444);
+    animation-delay: -1496ms;
+  }
+  
+  #particle499 {
+    background: #ff5e62;
+    transform: translateX(-8.55684vmin) translateY(9.11211vmin) scale(0.61732);
+    animation-delay: -671ms;
+  }
+  
+  #particle500 {
+    background: #7005ff;
+    transform: translateX(2.60581vmin) translateY(41.41811vmin) scale(0.03544);
+    animation-delay: -853ms;
+  }
+  
+  #particle501 {
+    background: #7a07ff;
+    transform: translateX(-21.43307vmin) translateY(-33.77312vmin) scale(0.04894);
+    animation-delay: -1730ms;
+  }
+  
+  #particle502 {
+    background: #7707ff;
+    transform: translateX(36.6455vmin) translateY(-17.24406vmin) scale(0.04421);
+    animation-delay: -1646ms;
+  }
+  
+  #particle503 {
+    background: #ff2fe1;
+    transform: translateX(-24.45165vmin) translateY(-1.53837vmin) scale(0.30409);
+    animation-delay: -1910ms;
+  }
+  
+  #particle504 {
+    background: #ff2fe1;
+    transform: translateX(1.53837vmin) translateY(24.45165vmin) scale(0.30409);
+    animation-delay: -574ms;
+  }
+  
+  #particle505 {
+    background: #a511ff;
+    transform: translateX(12.88436vmin) translateY(32.54218vmin) scale(0.10899);
+    animation-delay: -2196ms;
+  }
+  
+  #particle506 {
+    background: #ff517c;
+    transform: translateX(-15.46941vmin) translateY(-0.97325vmin) scale(0.53207);
+    animation-delay: -382ms;
+  }
+  
+  #particle507 {
+    background: #ff32d5;
+    transform: translateX(2.94533vmin) translateY(-23.3147vmin) scale(0.32699);
+    animation-delay: -823ms;
+  }
+  
+  #particle508 {
+    background: #6d05ff;
+    transform: translateX(-7.87002vmin) translateY(-41.25606vmin) scale(0.03142);
+    animation-delay: -1737ms;
+  }
+  
+  #particle509 {
+    background: #db1dff;
+    transform: translateX(-28.5317vmin) translateY(9.27051vmin) scale(0.19098);
+    animation-delay: -134ms;
+  }
+  
+  #particle510 {
+    background: #ff2de7;
+    transform: translateX(24.95067vmin) translateY(1.56976vmin) scale(0.29289);
+    animation-delay: -325ms;
+  }
+  
+  #particle511 {
+    background: #6303ff;
+    transform: translateX(-43.91318vmin) translateY(2.76278vmin) scale(0.01771);
+    animation-delay: -2341ms;
+  }
+  
+  #particle512 {
+    background: #f323ff;
+    transform: translateX(6.96332vmin) translateY(27.12033vmin) scale(0.22949);
+    animation-delay: -628ms;
+  }
+  
+  #particle513 {
+    background: #ff43a1;
+    transform: translateX(3.56024vmin) translateY(18.66346vmin) scale(0.43792);
+    animation-delay: -588ms;
+  }
+  
+  #particle514 {
+    background: #b514ff;
+    transform: translateX(2.10348vmin) translateY(33.4339vmin) scale(0.13137);
+    animation-delay: -1791ms;
+  }
+  
+  #particle515 {
+    background: #8209ff;
+    transform: translateX(-30.05002vmin) translateY(-24.85954vmin) scale(0.05912);
+    animation-delay: -612ms;
+  }
+  
+  #particle516 {
+    background: #6503ff;
+    transform: translateX(31.71014vmin) translateY(-29.7778vmin) scale(0.02078);
+    animation-delay: -1940ms;
+  }
+  
+  #particle517 {
+    background: #ff30db;
+    transform: translateX(7.41641vmin) translateY(-22.82536vmin) scale(0.31545);
+    animation-delay: -1721ms;
+  }
+  
+  #particle518 {
+    background: #b514ff;
+    transform: translateX(-31.86039vmin) translateY(-10.35207vmin) scale(0.13137);
+    animation-delay: -2260ms;
+  }
+  
+  #particle519 {
+    background: #9c0fff;
+    transform: translateX(22.94726vmin) translateY(-27.73848vmin) scale(0.09517);
+    animation-delay: -711ms;
+  }
+  
+  #particle520 {
+    background: #d61cff;
+    transform: translateX(-30.43982vmin) translateY(-1.91511vmin) scale(0.18185);
+    animation-delay: -1045ms;
+  }
+  
+  #particle521 {
+    background: #ff459b;
+    transform: translateX(-1.16162vmin) translateY(-18.46349vmin) scale(0.45098);
+    animation-delay: -1985ms;
+  }
+  
+  #particle522 {
+    background: #ff4991;
+    transform: translateX(-14.1578vmin) translateY(-10.28624vmin) scale(0.4775);
+    animation-delay: -1745ms;
+  }
+  
+  #particle523 {
+    background: #6102ff;
+    transform: translateX(40.2648vmin) translateY(-18.94718vmin) scale(0.01489);
+    animation-delay: -1567ms;
+  }
+  
+  #particle524 {
+    background: #5700ff;
+    transform: translateX(-30.27764vmin) translateY(36.59938vmin) scale(0.00308);
+    animation-delay: -1904ms;
+  }
+  
+  #particle525 {
+    background: #bf17ff;
+    transform: translateX(0vmin) translateY(-32.5vmin) scale(0.14736);
+    animation-delay: -1512ms;
+  }
+  
+  #particle526 {
+    background: #ff29f3;
+    transform: translateX(26vmin) translateY(0vmin) scale(0.27103);
+    animation-delay: -1565ms;
+  }
+  
+  #particle527 {
+    background: #8e0cff;
+    transform: translateX(20.0935vmin) translateY(-31.6623vmin) scale(0.07612);
+    animation-delay: -721ms;
+  }
+  
+  #particle528 {
+    background: #ff28f9;
+    transform: translateX(-25.66745vmin) translateY(-6.59028vmin) scale(0.26037);
+    animation-delay: -1898ms;
+  }
+  
+  #particle529 {
+    background: #6303ff;
+    transform: translateX(25.86255vmin) translateY(35.59675vmin) scale(0.01771);
+    animation-delay: -1423ms;
+  }
+  
+  #particle530 {
+    background: #9c0fff;
+    transform: translateX(34.23803vmin) translateY(11.12461vmin) scale(0.09517);
+    animation-delay: -1812ms;
+  }
+  
+  #particle531 {
+    background: #ff517c;
+    transform: translateX(-2.90441vmin) translateY(15.22545vmin) scale(0.53207);
+    animation-delay: -2491ms;
+  }
+  
+  #particle532 {
+    background: #5500ff;
+    transform: translateX(-38.14041vmin) translateY(31.55249vmin) scale(0.00012);
+    animation-delay: -708ms;
+  }
+  
+  #particle533 {
+    background: #5a01ff;
+    transform: translateX(-33.89704vmin) translateY(31.83144vmin) scale(0.00604);
+    animation-delay: -258ms;
+  }
+  
+  #particle534 {
+    background: #ffe78d;
+    transform: translateX(-0.92031vmin) translateY(-2.32444vmin) scale(0.92154);
+    animation-delay: -1373ms;
+  }
+  
+  #particle535 {
+    background: #ca19ff;
+    transform: translateX(-13.41205vmin) translateY(28.50205vmin) scale(0.16419);
+    animation-delay: -1297ms;
+  }
+  
+  #particle536 {
+    background: #5a01ff;
+    transform: translateX(-8.71323vmin) translateY(45.67636vmin) scale(0.00604);
+    animation-delay: -2428ms;
+  }
+  
+  #particle537 {
+    background: #930dff;
+    transform: translateX(-36.34463vmin) translateY(-6.93311vmin) scale(0.08225);
+    animation-delay: -591ms;
+  }
+  
+  #particle538 {
+    background: #ba15ff;
+    transform: translateX(-31.38487vmin) translateY(10.19756vmin) scale(0.13926);
+    animation-delay: -292ms;
+  }
+  
+  #particle539 {
+    background: #5500ff;
+    transform: translateX(29.09537vmin) translateY(-40.04634vmin) scale(0.00012);
+    animation-delay: -1405ms;
+  }
+  
+  #particle540 {
+    background: #ff32d5;
+    transform: translateX(19.84171vmin) translateY(-12.59193vmin) scale(0.32699);
+    animation-delay: -661ms;
+  }
+  
+  #particle541 {
+    background: #7a07ff;
+    transform: translateX(-38.04226vmin) translateY(-12.36068vmin) scale(0.04894);
+    animation-delay: -883ms;
+  }
+  
+  #particle542 {
+    background: #ff43a1;
+    transform: translateX(-13.8504vmin) translateY(13.0064vmin) scale(0.43792);
+    animation-delay: -2469ms;
+  }
+  
+  #particle543 {
+    background: #ff36c9;
+    transform: translateX(18.20288vmin) translateY(-13.22517vmin) scale(0.35055);
+    animation-delay: -1902ms;
+  }
+  
+  #particle544 {
+    background: #5500ff;
+    transform: translateX(45.55905vmin) translateY(18.0381vmin) scale(0.00049);
+    animation-delay: -1130ms;
+  }
+  
+  #particle545 {
+    background: #6102ff;
+    transform: translateX(43.10195vmin) translateY(-11.0667vmin) scale(0.01489);
+    animation-delay: -1282ms;
+  }
+  
+  #particle546 {
+    background: #ed22ff;
+    transform: translateX(24.97474vmin) translateY(-13.72998vmin) scale(0.21957);
+    animation-delay: -1505ms;
+  }
+  
+  #particle547 {
+    background: #970eff;
+    transform: translateX(-30.81797vmin) translateY(-19.55768vmin) scale(0.0886);
+    animation-delay: -1578ms;
+  }
+  
+  #particle548 {
+    background: #5700ff;
+    transform: translateX(38.42831vmin) translateY(-27.9198vmin) scale(0.00308);
+    animation-delay: -1988ms;
+  }
+  
+  #particle549 {
+    background: #5600ff;
+    transform: translateX(37.36989vmin) translateY(30.91506vmin) scale(0.00111);
+    animation-delay: -1311ms;
+  }
+  
+  #particle550 {
+    background: #ff41a6;
+    transform: translateX(-13.34867vmin) translateY(14.21489vmin) scale(0.42499);
+    animation-delay: -155ms;
+  }
+  
+  #particle551 {
+    background: #d01aff;
+    transform: translateX(-14.93436vmin) translateY(-27.16551vmin) scale(0.17292);
+    animation-delay: -438ms;
+  }
+  
+  #particle552 {
+    background: #ff517c;
+    transform: translateX(14.02482vmin) translateY(-6.59958vmin) scale(0.53207);
+    animation-delay: -632ms;
+  }
+  
+  #particle553 {
+    background: #7005ff;
+    transform: translateX(0vmin) translateY(41.5vmin) scale(0.03544);
+    animation-delay: -1920ms;
+  }
+  
+  #particle554 {
+    background: #5f02ff;
+    transform: translateX(5.64vmin) translateY(-44.64516vmin) scale(0.01231);
+    animation-delay: -1870ms;
+  }
+  
+  #particle555 {
+    background: #5500ff;
+    transform: translateX(42.2164vmin) translateY(-26.79134vmin) scale(0);
+    animation-delay: -1405ms;
+  }
+  
+  #particle556 {
+    background: #bf17ff;
+    transform: translateX(-27.44066vmin) translateY(-17.41437vmin) scale(0.14736);
+    animation-delay: -1735ms;
+  }
+  
+  #particle557 {
+    background: #6503ff;
+    transform: translateX(16.01342vmin) translateY(40.44528vmin) scale(0.02078);
+    animation-delay: -2244ms;
+  }
+  
+  #particle558 {
+    background: #ff29f3;
+    transform: translateX(-25.79498vmin) translateY(3.25866vmin) scale(0.27103);
+    animation-delay: -1793ms;
+  }
+  
+  #particle559 {
+    background: #ff26ff;
+    transform: translateX(9.93936vmin) translateY(25.10397vmin) scale(0.24989);
+    animation-delay: -1637ms;
+  }
+  
+  #particle560 {
+    background: #ff2fe1;
+    transform: translateX(-7.57092vmin) translateY(23.30088vmin) scale(0.30409);
+    animation-delay: -65ms;
+  }
+  
+  #particle561 {
+    background: #6102ff;
+    transform: translateX(-36.00126vmin) translateY(-26.15644vmin) scale(0.01489);
+    animation-delay: -575ms;
+  }
+  
+  #particle562 {
+    background: #9c0fff;
+    transform: translateX(-17.34313vmin) translateY(31.54704vmin) scale(0.09517);
+    animation-delay: -2158ms;
+  }
+  
+  #particle563 {
+    background: #ff7c67;
+    transform: translateX(10.4172vmin) translateY(1.316vmin) scale(0.67608);
+    animation-delay: -223ms;
+  }
+  
+  #particle564 {
+    background: #5b01ff;
+    transform: translateX(-2.88836vmin) translateY(45.90923vmin) scale(0.00789);
+    animation-delay: -1289ms;
+  }
+  
+  #particle565 {
+    background: #7005ff;
+    transform: translateX(24.39309vmin) translateY(33.57421vmin) scale(0.03544);
+    animation-delay: -2129ms;
+  }
+  
+  #particle566 {
+    background: #ff37c3;
+    transform: translateX(-6.79837vmin) translateY(-20.92324vmin) scale(0.36258);
+    animation-delay: -487ms;
+  }
+  
+  #particle567 {
+    background: #8209ff;
+    transform: translateX(28.42978vmin) translateY(26.69734vmin) scale(0.05912);
+    animation-delay: -1639ms;
+  }
+  
+  #particle568 {
+    background: #5500ff;
+    transform: translateX(31.23378vmin) translateY(37.75515vmin) scale(0.00049);
+    animation-delay: -2292ms;
+  }
+  
+  #particle569 {
+    background: #ba15ff;
+    transform: translateX(-10.19756vmin) translateY(31.38487vmin) scale(0.13926);
+    animation-delay: -1238ms;
+  }
+  
+  #particle570 {
+    background: #ff37c3;
+    transform: translateX(0vmin) translateY(22vmin) scale(0.36258);
+    animation-delay: -2285ms;
+  }
+  
+  #particle571 {
+    background: #5b01ff;
+    transform: translateX(-27.03812vmin) translateY(37.21478vmin) scale(0.00789);
+    animation-delay: -1521ms;
+  }
+  
+  #particle572 {
+    background: #8209ff;
+    transform: translateX(28.42978vmin) translateY(-26.69734vmin) scale(0.05912);
+    animation-delay: -360ms;
+  }
+  
+  #particle573 {
+    background: #5b01ff;
+    transform: translateX(27.03812vmin) translateY(-37.21478vmin) scale(0.00789);
+    animation-delay: -843ms;
+  }
+  
+  #particle574 {
+    background: #e720ff;
+    transform: translateX(3.63466vmin) translateY(28.77133vmin) scale(0.20984);
+    animation-delay: -822ms;
+  }
+  
+  #particle575 {
+    background: #d61cff;
+    transform: translateX(3.82266vmin) translateY(-30.2595vmin) scale(0.18185);
+    animation-delay: -2013ms;
+  }
+  
+  #particle576 {
+    background: #5600ff;
+    transform: translateX(0vmin) translateY(-48.5vmin) scale(0.00111);
+    animation-delay: -2352ms;
+  }
+  
+  #particle577 {
+    background: #f925ff;
+    transform: translateX(25.56885vmin) translateY(10.12343vmin) scale(0.23959);
+    animation-delay: -2265ms;
+  }
+  
+  #particle578 {
+    background: #5500ff;
+    transform: translateX(-29.09537vmin) translateY(-40.04634vmin) scale(0.00012);
+    animation-delay: -535ms;
+  }
+  
+  #particle579 {
+    background: #5b01ff;
+    transform: translateX(-5.76533vmin) translateY(-45.63728vmin) scale(0.00789);
+    animation-delay: -2062ms;
+  }
+  
+  #particle580 {
+    background: #7306ff;
+    transform: translateX(-17.45695vmin) translateY(37.09791vmin) scale(0.03971);
+    animation-delay: -98ms;
+  }
+  
+  #particle581 {
+    background: #7005ff;
+    transform: translateX(-39.46885vmin) translateY(-12.82421vmin) scale(0.03544);
+    animation-delay: -391ms;
+  }
+  
+  #particle582 {
+    background: #970eff;
+    transform: translateX(34.71356vmin) translateY(-11.27912vmin) scale(0.0886);
+    animation-delay: -885ms;
+  }
+  
+  #particle583 {
+    background: #ff4991;
+    transform: translateX(17.19003vmin) translateY(-3.27917vmin) scale(0.4775);
+    animation-delay: -641ms;
+  }
+  
+  #particle584 {
+    background: #8a0bff;
+    transform: translateX(34.38343vmin) translateY(16.17961vmin) scale(0.07022);
+    animation-delay: -2107ms;
+  }
+  
+  #particle585 {
+    background: #6d05ff;
+    transform: translateX(22.50473vmin) translateY(35.46177vmin) scale(0.03142);
+    animation-delay: -1743ms;
+  }
+  
+  #particle586 {
+    background: #ff5e62;
+    transform: translateX(10.11271vmin) translateY(-7.34732vmin) scale(0.61732);
+    animation-delay: -1115ms;
+  }
+  
+  #particle587 {
+    background: #6804ff;
+    transform: translateX(-41.64908vmin) translateY(10.69367vmin) scale(0.02408);
+    animation-delay: -1000ms;
+  }
+  
+  #particle588 {
+    background: #ff39bd;
+    transform: translateX(-14.71776vmin) translateY(-15.67283vmin) scale(0.37476);
+    animation-delay: -2285ms;
+  }
+  
+  #particle589 {
+    background: #ff2de7;
+    transform: translateX(6.21725vmin) translateY(-24.21458vmin) scale(0.29289);
+    animation-delay: -1601ms;
+  }
+  
+  #particle590 {
+    background: #ff4991;
+    transform: translateX(-7.45114vmin) translateY(15.83447vmin) scale(0.4775);
+    animation-delay: -2186ms;
+  }
+  
+  #particle591 {
+    background: #ff4b8b;
+    transform: translateX(-13.75329vmin) translateY(9.99235vmin) scale(0.49096);
+    animation-delay: -2369ms;
+  }
+  
+  #particle592 {
+    background: #6503ff;
+    transform: translateX(29.7778vmin) translateY(-31.71014vmin) scale(0.02078);
+    animation-delay: -1091ms;
+  }
+  
+  #particle593 {
+    background: #8209ff;
+    transform: translateX(32.92879vmin) translateY(20.89725vmin) scale(0.05912);
+    animation-delay: -1645ms;
+  }
+  
+  #particle594 {
+    background: #ed22ff;
+    transform: translateX(-7.08766vmin) translateY(-27.60462vmin) scale(0.21957);
+    animation-delay: -1376ms;
+  }
+  
+  #particle595 {
+    background: #7a07ff;
+    transform: translateX(-21.43307vmin) translateY(-33.77312vmin) scale(0.04894);
+    animation-delay: -923ms;
+  }
+  
+  #particle596 {
+    background: #ff2bed;
+    transform: translateX(18.5887vmin) translateY(-17.45595vmin) scale(0.28187);
+    animation-delay: -1900ms;
+  }
+  
+  #particle597 {
+    background: #970eff;
+    transform: translateX(2.29185vmin) translateY(36.42798vmin) scale(0.0886);
+    animation-delay: -2292ms;
+  }
+  
+  #particle598 {
+    background: #5500ff;
+    transform: translateX(49.40232vmin) translateY(3.10813vmin) scale(0.00012);
+    animation-delay: -2416ms;
+  }
+  
+  #particle599 {
+    background: #6102ff;
+    transform: translateX(-42.32201vmin) translateY(-13.75126vmin) scale(0.01489);
+    animation-delay: -1536ms;
+  }
+  
+  #particle600 {
+    background: #6a04ff;
+    transform: translateX(10.56932vmin) translateY(41.16478vmin) scale(0.02763);
+    animation-delay: -791ms;
+  }
+  
+  @keyframes doit {
+    0% {
+      opacity: 0;
+    }
+    5% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0) translateY(0) scale(0.1);
+    }
+  }
+  
