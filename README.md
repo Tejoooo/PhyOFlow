@@ -1,4 +1,4 @@
-# Physics Course Website
+# PhyOverFlow
 
 Welcome to the Physics Course Website! This website is built using Django and provides functionality for users to login and take up physics courses.
 
@@ -9,7 +9,6 @@ Welcome to the Physics Course Website! This website is built using Django and pr
 - Course Catalog: Users can browse the available physics courses offered on the website.
 - Course Enrollment: Users can enroll in the desired physics courses.
 - Course Progress Tracking: Users can track their progress within each course.
-- Course Materials: Users can access the course materials, including lessons, videos, and resources.
 
 ## Installation
 
