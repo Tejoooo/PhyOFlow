@@ -12,7 +12,7 @@ Welcome to the Physics Course Website! This website is built using Django and pr
 
 ## Installation
 
-1. Clone the repository:git clone https://github.com/your-username/physics-course-website.git
+1. Clone the repository:git clone https://github.com/Tejoooo/PhyOFlow.git
 2. Install the required dependencies:pip install -r requirements.txt
 3. Apply database migrations:python manage.py migrate
 4. Start the development server:python manage.py runserver
